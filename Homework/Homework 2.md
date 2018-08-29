@@ -1,1 +1,1 @@
-[Homework 2](https://camweil.github.io/math4610/homework/homework2
+[Homework 2](https://camweil.github.io/math4610/homework/homework2)
