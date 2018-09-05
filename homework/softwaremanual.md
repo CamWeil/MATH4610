@@ -18,7 +18,7 @@ computer being queried.
 
 xxx
 
-**Implementation/Code:** The following is the code for nmmaceps()
+**Implementation/Code:** The following is the code for nmmaceps.cpp
 
     void machineEpsilon(float EPS)
     {
