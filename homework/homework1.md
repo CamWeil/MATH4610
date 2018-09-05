@@ -1,3 +1,3 @@
 Homework 1
 
-[Homework 1](https://github.com/camweil/math4610/homework/nmhw1.md)
+[Homework 1](https://github.com/CamWeil/math4610/blob/master/homework/nmhw1.pdf)
