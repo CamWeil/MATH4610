@@ -39,7 +39,7 @@ xxx
             cout << "Machine Epsilon (float) is : " << prev_eps << endl;
         }
 
-        void dnmmaceps(double deps)
+        void nmdmaceps(double deps)
         {
             double prev_deps;
     
@@ -57,7 +57,7 @@ xxx
         int main()
         {
             nmmaceps(0.5);
-            dnmmaceps(0.5);
+            nmdmaceps(0.5);
     
             return 0;
         }
