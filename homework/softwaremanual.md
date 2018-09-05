@@ -16,7 +16,7 @@ computer being queried.
 
 **Usage/Example:**
 
-xxx
+???
 
 **Implementation/Code:** The following is the code for nmmaceps.cpp
 
@@ -26,32 +26,32 @@ xxx
 
         void nmmaceps(float eps)
         {
-            float prev_eps;
+            float preveps;
     
             while ((1+eps) != 1)
         
             {
-                prev_eps = eps;
+                preveps = eps;
         
                 eps /= 2;
             }
     
-            cout << "Machine Epsilon (float) is : " << prev_eps << endl;
+            cout << "Machine Epsilon (float) is : " << preveps << endl;
         }
 
         void nmdmaceps(double deps)
         {
-            double prev_deps;
+            double prevdeps;
     
             while ((1+deps) != 1)
         
             {
-                prev_deps = deps;
+                prevdeps = deps;
         
                 deps /= 2;
             }
     
-            cout << "Machine Epsilon (double) is : " << prev_deps << endl;
+            cout << "Machine Epsilon (double) is : " << prevdeps << endl;
         }
 
         int main()
