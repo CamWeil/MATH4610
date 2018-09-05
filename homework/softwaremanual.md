@@ -23,43 +23,43 @@ xxx
     #include<iostream>
     #include <cfloat>
     using namespace std;
-    
-    void nmmaceps(float EPS)
-    {
-        float prev_epsilon;
-    
-        while ((1+EPS) != 1)
-        
+
+        void nmmaceps(float eps)
         {
-            prev_epsilon = EPS;
+            float prev_eps;
+    
+            while ((1+eps) != 1)
         
-            EPS /=2;
+            {
+                prev_eps = eps;
+        
+                eps /=2;
+            }
+    
+            cout << "Machine Epsilon (float) is : " << prev_eps << endl;
         }
-    
-        cout << "Machine Epsilon (float) is : " << prev_epsilon << endl;
-    }
 
-    void dnmmaceps(double EPS2)
-    {
-        double prev_epsilon2;
-    
-        while ((1+EPS2) != 1)
-        
+        void dnmmaceps(double deps)
         {
-            prev_epsilon2 = EPS2;
+            double prev_deps;
+    
+            while ((1+deps) != 1)
         
-            EPS2 /=2;
+            {
+                prev_deps = deps;
+        
+                deps /=2;
+            }
+    
+            cout << "Machine Epsilon (double) is : " << prev_deps << endl;
         }
-    
-        cout << "Machine Epsilon (double) is : " << prev_epsilon2 << endl;
-    }
 
-    int main()
-    {
-        nmmaceps(0.5);
-        dnmmaceps(0.5);
+        int main()
+        {
+            nmmaceps(0.5);
+            dnmmaceps(0.5);
     
-        return 0;
-    }
-
+            return 0;
+        }
+        
 **Last Modified:** September/2018
