@@ -33,7 +33,7 @@ xxx
             {
                 prev_eps = eps;
         
-                eps /=2;
+                eps /= 2;
             }
     
             cout << "Machine Epsilon (float) is : " << prev_eps << endl;
@@ -48,7 +48,7 @@ xxx
             {
                 prev_deps = deps;
         
-                deps /=2;
+                deps /= 2;
             }
     
             cout << "Machine Epsilon (double) is : " << prev_deps << endl;
