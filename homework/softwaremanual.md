@@ -12,15 +12,11 @@ usually will need to be run one time for each computer.
 return values in those variables.
 
 **Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
-computer being queried. In my case, the output is as follows:
-    
-    Machine Epsilon (float) is : 1.19209e-07
-    Machine Epsilon (double) is : 2.22045e-16
-    Program ended with exit code: 0
+computer being queried.
 
 **Usage/Example:**
 
-The routine defines two float variables eps and preveps, in which eps is copied into preveps in order to provide the output for machine epsilon. This is found using the loop
+The routine defines two float variables, eps and preveps, in which the value of the machine epsilon is found using the loop: 
 
             while ((1+eps) != 1)
         
@@ -29,6 +25,12 @@ The routine defines two float variables eps and preveps, in which eps is copied 
         
                 eps /= 2;
             }
+            
+This defines the smallest number of eps such that 1 + eps is not equal to 1, which is then copied into preveps during each iteration. eps is divided by 2 in order to determine when the difference between 1 and the approximation is 0 in single precision, such that preveps is used as the output for the final machine epsilon. This procedure is additionally repeated using double variables instead of float variables, and the output that each respective loop gives is:
+
+    Machine Epsilon (float) is : 1.19209e-07
+    Machine Epsilon (double) is : 2.22045e-16
+    Program ended with exit code: 0
 
 **Implementation/Code:** The following is the code for nmmaceps.cpp:
 
