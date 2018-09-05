@@ -20,6 +20,10 @@ xxx
 
 **Implementation/Code:** The following is the code for nmmaceps.cpp
 
+    #include<iostream>
+    #include <cfloat>
+    using namespace std;
+    
     void machineEpsilon(float EPS)
     {
         float prev_epsilon;
