@@ -24,7 +24,7 @@ xxx
     #include <cfloat>
     using namespace std;
     
-    void machineEpsilon(float EPS)
+    void nmmaceps(float EPS)
     {
         float prev_epsilon;
     
@@ -36,10 +36,10 @@ xxx
             EPS /=2;
         }
     
-        cout << "Machine Epsilon is : " << prev_epsilon << endl;
+        cout << "Machine Epsilon (float) is : " << prev_epsilon << endl;
     }
 
-    void machineEpsilon2(double EPS2)
+    void dnmmaceps(double EPS2)
     {
         double prev_epsilon2;
     
@@ -51,13 +51,13 @@ xxx
             EPS2 /=2;
         }
     
-        cout << "Machine Epsilon is : " << prev_epsilon2 << endl;
+        cout << "Machine Epsilon (double) is : " << prev_epsilon2 << endl;
     }
 
     int main()
     {
-        machineEpsilon(0.5);
-        machineEpsilon2(0.5);
+        nmmaceps(0.5);
+        dnmmaceps(0.5);
     
         return 0;
     }
