@@ -1,22 +1,16 @@
 1. **Routine Name:**           nmmaceps
 
-**Author:** Cam Weil
+   **Author:** Cam Weil
 
-**Language:** C++
+   **Language:** C++
 
-**Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits
-in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
-usually will need to be run one time for each computer.
+   **Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This usually will need to be run one time for each computer.
 
-**Input:** There are no inputs needed in this case. Even though there are arguments supplied, the real purpose is to
-return values in those variables.
+   **Input:** There are no inputs needed in this case. Even though there are arguments supplied, the real purpose is to return values in those variables.
 
-**Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
-computer being queried.
+   **Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the computer being queried.
 
-**Usage/Example:**
-
-The routine defines two float variables, eps and preveps, in which the value of the machine epsilon is found using the loop: 
+   **Usage/Example:** The routine defines two float variables, eps and preveps, in which the value of the machine epsilon is found using the loop: 
 
             while ((1+eps) != 1)
         
@@ -26,7 +20,7 @@ The routine defines two float variables, eps and preveps, in which the value of 
                 eps /= 2;
             }
             
-This defines the smallest number of eps such that 1 + eps is not equal to 1, which is then copied into preveps during each iteration. eps is divided by 2 in order to determine when the difference between 1 and the approximation is 0 in single precision, such that preveps is used as the output for the final machine epsilon. This procedure is additionally repeated using double variables instead of float variables, and the output that each respective loop gives is:
+   This defines the smallest number of eps such that 1 + eps is not equal to 1, which is then copied into preveps during each iteration. eps is divided by 2 in order to determine when the difference between 1 and the approximation is 0 in single precision, such that preveps is used as the output for the final machine epsilon. This procedure is additionally repeated using double variables instead of float variables, and the output that each respective loop gives is:
 
     Machine Epsilon (float) is : 1.19209e-07
     Machine Epsilon (double) is : 2.22045e-16
