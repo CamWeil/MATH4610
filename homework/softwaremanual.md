@@ -1,4 +1,4 @@
-**Routine Name:**           nmmaceps
+1. **Routine Name:**           nmmaceps
 
 **Author:** Cam Weil
 
@@ -20,7 +20,15 @@ computer being queried. In my case, the output is as follows:
 
 **Usage/Example:**
 
-???
+The routine defines two float variables eps and preveps, in which eps is copied into preveps in order to provide the output for machine epsilon. This is found using the loop
+
+            while ((1+eps) != 1)
+        
+            {
+                preveps = eps;
+        
+                eps /= 2;
+            }
 
 **Implementation/Code:** The following is the code for nmmaceps.cpp:
 
