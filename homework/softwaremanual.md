@@ -12,62 +12,62 @@
 
    **Usage/Example:** The routine defines two float variables, eps and preveps, in which the value of the machine epsilon is found using the loop: 
 
-            while ((1+eps) != 1)
+         while ((1+eps) != 1)
         
-            {
-                preveps = eps;
+         {
+             preveps = eps;
         
-                eps /= 2;
-            }
+             eps /= 2;
+         }
             
    This defines the smallest number of eps such that 1 + eps is not equal to 1, which is then copied into preveps during each iteration. eps is divided by 2 in order to determine when the difference between 1 and the approximation is 0 in single precision, such that preveps is used as the output for the final machine epsilon. This procedure is additionally repeated using double variables instead of float variables, and the output that each respective loop gives is:
 
-    Machine Epsilon (float) is : 1.19209e-07
-    Machine Epsilon (double) is : 2.22045e-16
-    Program ended with exit code: 0
+        Machine Epsilon (float) is : 1.19209e-07
+        Machine Epsilon (double) is : 2.22045e-16
+        Program ended with exit code: 0
 
-**Implementation/Code:** The following is the code for nmmaceps.cpp:
+   **Implementation/Code:** The following is the code for nmmaceps.cpp:
 
-    #include<iostream>
-    #include <cfloat>
-    using namespace std;
+        #include<iostream>
+        #include <cfloat>
+        using namespace std;
 
-        void nmmaceps(float eps)
-        {
-            float preveps;
-    
-            while ((1+eps) != 1)
-        
+            void nmmaceps(float eps)
             {
-                preveps = eps;
+                float preveps;
+    
+                while ((1+eps) != 1)
         
-                eps /= 2;
+                {
+                    preveps = eps;
+        
+                    eps /= 2;
+                }
+    
+                cout << "Machine Epsilon (float) is : " << preveps << endl;
             }
-    
-            cout << "Machine Epsilon (float) is : " << preveps << endl;
-        }
 
-        void nmdmaceps(double deps)
-        {
-            double prevdeps;
-    
-            while ((1+deps) != 1)
-        
+            void nmdmaceps(double deps)
             {
-                prevdeps = deps;
+                double prevdeps;
+    
+                while ((1+deps) != 1)
         
-                deps /= 2;
+                {
+                    prevdeps = deps;
+        
+                    deps /= 2;
+                }
+    
+                cout << "Machine Epsilon (double) is : " << prevdeps << endl;
             }
-    
-            cout << "Machine Epsilon (double) is : " << prevdeps << endl;
-        }
 
-        int main()
-        {
-            nmmaceps(0.5);
-            nmdmaceps(0.5);
+            int main()
+            {
+                nmmaceps(0.5);
+                nmdmaceps(0.5);
     
-            return 0;
-        }
+                return 0;
+            }
         
-**Last Modified:** September/2018
+   **Last Modified:** September/2018
