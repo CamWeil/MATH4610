@@ -18,48 +18,44 @@ computer being queried.
 
 xxx
 
-**Implementation/Code:** The following is the code for nmmaceps
+**Implementation/Code:** The following is the code for nmmaceps()
 
------|#include<iostream>
------|#include <cfloat>
------|using namespace std;
------|
------|void machineEpsilon(float EPS)
------|{
------|    float prev_epsilon;
------|    
------|    while ((1+EPS) != 1)
------|        
------|    {
------|        prev_epsilon = EPS;
------|        
------|        EPS /=2;
------|    }
------|    
------|    cout << "Machine Epsilon is : " << prev_epsilon << endl;
------|
------|
------|void machineEpsilon2(double EPS2)
------|{
------|    double prev_epsilon2;
------|    
------|    while ((1+EPS2) != 1)
------|        
------|    {
------|        prev_epsilon2 = EPS2;
------|        
------|        EPS2 /=2;
------|    }
------|    
------|    cout << "Machine Epsilon is : " << prev_epsilon2 << endl;
------|}
------|
------|int main()
------|{
------|    machineEpsilon(0.5);
------|    machineEpsilon2(0.5);
------|    
------|    return 0;
------|}
+    void machineEpsilon(float EPS)
+    {
+        float prev_epsilon;
+    
+        while ((1+EPS) != 1)
+        
+        {
+            prev_epsilon = EPS;
+        
+            EPS /=2;
+        }
+    
+        cout << "Machine Epsilon is : " << prev_epsilon << endl;
+    }
+
+    void machineEpsilon2(double EPS2)
+    {
+        double prev_epsilon2;
+    
+        while ((1+EPS2) != 1)
+        
+        {
+            prev_epsilon2 = EPS2;
+        
+            EPS2 /=2;
+        }
+    
+        cout << "Machine Epsilon is : " << prev_epsilon2 << endl;
+    }
+
+    int main()
+    {
+        machineEpsilon(0.5);
+        machineEpsilon2(0.5);
+    
+        return 0;
+    }
 
 **Last Modified:** September/2018
