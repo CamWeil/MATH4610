@@ -12,13 +12,17 @@ usually will need to be run one time for each computer.
 return values in those variables.
 
 **Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
-computer being queried.
+computer being queried. In my case, the output is as follows:
+    
+    Machine Epsilon (float) is : 1.19209e-07
+    Machine Epsilon (double) is : 2.22045e-16
+    Program ended with exit code: 0
 
 **Usage/Example:**
 
 ???
 
-**Implementation/Code:** The following is the code for nmmaceps.cpp
+**Implementation/Code:** The following is the code for nmmaceps.cpp:
 
     #include<iostream>
     #include <cfloat>
