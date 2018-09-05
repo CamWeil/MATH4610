@@ -1,7 +1,7 @@
 Homework
 
-1. [Homework 1](https://camweil.github.io/math4610/homework/homework1.md)
-2. [Homework 2](https://camweil.github.io/math4610/homework/homework2)
-3. [Homework 3](https://camweil.github.io/math4610/homework/homework3)
-4. [Homework 4](https://camweil.github.io/math4610/homework/homework4)
-5. [Homework 5](https://camweil.github.io/math4610/homework/homework5)
+1. [Homework 1](https://github.com/CamWeil/math4610/blob/master/homework/homework1.md)
+2. [Homework 2](https://github.com/CamWeil/math4610/blob/master/homework/homework2.md)
+3. [Homework 3](https://github.com/CamWeil/math4610/blob/master/homework/homework3.md)
+4. [Homework 4](https://github.com/CamWeil/math4610/blob/master/homework/homework4.md)
+5. [Homework 5](https://github.com/CamWeil/math4610/blob/master/homework/homework5.md)
