@@ -4,11 +4,11 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute the roots of a quadratic polynomial. This is a routine for solving any polynomial of the form ax^2 + bx + c so long as a \neq 0.
+   **Description/Purpose:** This routine will compute the roots of a quadratic polynomial. This is a routine for solving any polynomial of the form ax^2 + bx + c so long as a ≠ 0.
 
    **Input:** There are inputs needed for a, b, and c.
 
-   **Output:** This routine returns the two roots of the solution x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.
+   **Output:** This routine returns the two roots of the solution x = (-b ± \sqrt{b^2 - 4ac})/2a.
 
    **Usage/Example:** The routine defines two float variables, eps and preveps, in which the value of the machine epsilon is found using the loop: 
 
