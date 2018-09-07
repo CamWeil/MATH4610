@@ -12,18 +12,19 @@
    
       <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
-   **Usage/Example:** The routine defines eight float variables, a, b, c, x1, x2, disc, xreal, and ximag. a, b, and c are inputs, 
+   **Usage/Example:** The routine defines eight float variables, a, b, c, x1, x2, disc, xreal, and ximag. a, b, and c are inputs, and disc is the discriminant of the polynomial, which is given as:
 
-         while((1+eps) != 1){
-             preveps = eps;
-             eps /= 2;
-         }
-            
-   This defines the smallest number of eps such that 1 + eps is not equal to 1, which is then copied into preveps during each iteration. eps is divided by 2 in order to determine when the difference between 1 and the approximation is 0 in single precision, such that preveps is used as the output for the final machine epsilon when the approximation fails. This procedure is then repeated using double variables instead of float variables, and the output that each respective loop gives (in the author's case) is:
-
-        Machine Epsilon (float) is : 1.19209e-07
-        Machine Epsilon (double) is : 2.22045e-16
-        Program ended with exit code: 0
+        disc = b*b - 4*a*c;
+   
+   The value of this discriminant is then used to determine how the roots of the polynomial should be calculated. If the discriminant is positive or zero, then the roots are real and are given as:
+   
+        x1 = (-b + sqrt(disc))/(2*a);
+        x2 = (-b - sqrt(disc))/(2*a);
+        
+   If the discriminant is negative, then the roots are complex and so are given as:
+   
+        xreal = -b/(2*a);
+        ximag = sqrt(-disc)/(2*a);
 
    **Implementation/Code:** The following is the code for nmqproots.cpp:
 
