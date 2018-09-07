@@ -8,7 +8,7 @@
 
    **Input:** There are inputs needed for a, b, and c, which are prompted for at the beginning of the routine.
 
-   **Output:** This routine returns the two roots to the solution x = (-b ± √(b<sup>2</sup> - 4ac))/(2a). For example, the inputs a = 1, b = 2, and c=3 will return the output:
+   **Output:** This routine returns the two roots to the solution x = (-b ± √(b<sup>2</sup> - 4ac))/(2a). For example, the inputs a = 1, b = 2, and c = 3 will return the output:
   
         x1 = -1 + 1.41421i
         x2 = -1 - 1.41421i
