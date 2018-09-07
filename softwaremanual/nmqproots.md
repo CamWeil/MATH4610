@@ -12,7 +12,7 @@
    
       <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
-   **Usage/Example:** The routine defines two float variables, eps and preveps, in which the value of the machine epsilon is found using the loop: 
+   **Usage/Example:** The routine defines eight float variables, a, b, c, x1, x2, disc, xreal, and ximag.  
 
          while((1+eps) != 1){
              preveps = eps;
@@ -25,40 +25,48 @@
         Machine Epsilon (double) is : 2.22045e-16
         Program ended with exit code: 0
 
-   **Implementation/Code:** The following is the code for nmmaceps.cpp:
+   **Implementation/Code:** The following is the code for nmqproots.cpp:
 
         #include<iostream>
-        #include<cfloat>
+        #include<iomanip>
+        #include<math.h>
         using namespace std;
 
-        void nmmaceps(float eps){
-            float preveps;
-    
-            while((1+eps) != 1){
-                preveps = eps;
-                eps /= 2;
-            }
-    
-            cout << "Machine Epsilon (float) is : " << preveps << endl;
-        }
-
-        void nmdmaceps(double deps){
-            double prevdeps;
-    
-            while((1+deps) != 1){
-                prevdeps = deps;
-                deps /= 2;
-            }
-    
-            cout << "Machine Epsilon (double) is : " << prevdeps << endl;
-        }
-
         int main(){
-            nmmaceps(0.5);
-            nmdmaceps(0.5);
-    
-            return 0;
-        }
 
+        float a, b, c, x1, x2, disc, xreal, ximag;
+
+            cout << "Enter coefficient a: ";
+            cin >> a;
+    
+                if(a == 0){
+                    cout << "a cannot be 0. Enter coefficient a: ";
+                    cin >> a;
+                }
+    
+            cout << "Enter coefficient b: ";
+            cin >> b;
+            cout << "Enter coefficient c: ";
+            cin >> c;
+    
+            disc = b*b - 4*a*c;
+    
+                if(disc >= 0){
+                    x1 = (-b + sqrt(disc))/(2*a);
+                    x2 = (-b - sqrt(disc))/(2*a);
+                    cout << "x1 = " << x1 << endl;
+                    cout << "x2 = " << x2 << endl;
+                }
+    
+                else{
+                    xreal = -b/(2*a);
+                    ximag = sqrt(-disc)/(2*a);
+                    cout << "x1 = " << xreal << " + " << ximag << "i" << endl;
+                    cout << "x2 = " << xreal << " - " << ximag << "i" << endl;
+                }
+
+            return 0;
+    
+        };
         
    **Last Modified:** September/2018
