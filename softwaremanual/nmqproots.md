@@ -10,7 +10,7 @@
 
    **Output:** This routine returns the two roots to the solution x = (-b ± √(b<sup>2</sup> - 4ac))/(2a).
 
-   **Usage/Example:** The routine defines eight float variables, a, b, c, x1, x2, disc, xreal, and ximag. a, b, and c are inputs, and disc is the discriminant of the polynomial, which is given as:
+   **Usage/Example:** The routine defines eight float variables, a, b, c, x1, x2, disc, xreal, and ximag. a, b, and c are the coefficients of the polynomial and disc is the discriminant of the polynomial, which is given as:
 
         disc = b*b - 4*a*c;
    
