@@ -8,7 +8,7 @@
 
    **Input:** There are inputs needed for a, b, and c.
 
-   **Output:** This routine returns the two roots to the solution   <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+   **Output:** This routine returns the two roots to the solution <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
    **Usage/Example:** The routine defines eight float variables, a, b, c, x1, x2, disc, xreal, and ximag. a, b, and c are inputs, and disc is the discriminant of the polynomial, which is given as:
 
