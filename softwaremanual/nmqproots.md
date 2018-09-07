@@ -6,12 +6,12 @@
 
    **Description/Purpose:** This routine will compute the roots of a quadratic polynomial. This is a routine for solving any equation of the form ax<sup>2</sup> + bx + c so long as a ≠ 0.
 
-   **Input:** There are inputs needed for a, b, and c, which are prompted for at the beginning of the routine. For example, the inputs a = 1, b = 2, and c=3 will return the output:
+   **Input:** There are inputs needed for a, b, and c, which are prompted for at the beginning of the routine.
+
+   **Output:** This routine returns the two roots to the solution x = (-b ± √(b<sup>2</sup> - 4ac))/(2a). For example, the inputs a = 1, b = 2, and c=3 will return the output:
   
         x1 = -1 + 1.41421i
         x2 = -1 - 1.41421i
-
-   **Output:** This routine returns the two roots to the solution x = (-b ± √(b<sup>2</sup> - 4ac))/(2a).
 
    **Usage/Example:** The routine defines eight float variables, a, b, c, x1, x2, disc, xreal, and ximag. a, b, and c are the coefficients of the polynomial and disc is the discriminant of the polynomial, which is given as:
 
