@@ -14,7 +14,6 @@
 
          while((1+eps) != 1){
              preveps = eps;
-        
              eps /= 2;
          }
             
@@ -35,7 +34,6 @@
     
             while((1+eps) != 1){
                 preveps = eps;
-        
                 eps /= 2;
             }
     
@@ -47,7 +45,6 @@
     
             while((1+deps) != 1){
                 prevdeps = deps;
-        
                 deps /= 2;
             }
     
