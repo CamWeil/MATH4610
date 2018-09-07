@@ -29,45 +29,39 @@
    **Implementation/Code:** The following is the code for nmmaceps.cpp:
 
         #include<iostream>
-        #include <cfloat>
+        #include<cfloat>
         using namespace std;
 
-            void nmmaceps(float eps)
-            {
-                float preveps;
+        void nmmaceps(float eps){
+            float preveps;
     
-                while ((1+eps) != 1)
+            while ((1+eps) != 1){
+                preveps = eps;
         
-                {
-                    preveps = eps;
-        
-                    eps /= 2;
-                }
-    
-                cout << "Machine Epsilon (float) is : " << preveps << endl;
+                eps /= 2;
             }
+    
+            cout << "Machine Epsilon (float) is : " << preveps << endl;
+        }
 
-            void nmdmaceps(double deps)
-            {
-                double prevdeps;
+        void nmdmaceps(double deps){
+            double prevdeps;
     
-                while ((1+deps) != 1)
+            while ((1+deps) != 1){
+                prevdeps = deps;
         
-                {
-                    prevdeps = deps;
-        
-                    deps /= 2;
-                }
-    
-                cout << "Machine Epsilon (double) is : " << prevdeps << endl;
+                deps /= 2;
             }
+    
+            cout << "Machine Epsilon (double) is : " << prevdeps << endl;
+        }
 
-            int main()
-            {
-                nmmaceps(0.5);
-                nmdmaceps(0.5);
+        int main(){
+            nmmaceps(0.5);
+            nmdmaceps(0.5);
     
-                return 0;
-            }
+            return 0;
+        }
+
         
    **Last Modified:** September/2018
