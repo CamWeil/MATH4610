@@ -4,7 +4,7 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute the roots of a quadratic polynomial. This is a routine for solving any equation of the form ax^2 + bx + c so long as a ≠ 0.
+   **Description/Purpose:** This routine will compute the roots of a quadratic polynomial. This is a routine for solving any equation of the form ax<sup>2</sup> + bx + c so long as a ≠ 0.
 
    **Input:** There are inputs needed for a, b, and c.
 
