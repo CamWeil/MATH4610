@@ -16,12 +16,12 @@
 
         disc = b*b - 4*a*c;
    
-   The value of this discriminant is then used to determine how the roots of the polynomial should be calculated. If the discriminant is positive or zero, then the roots are real and are given as:
+   The value of this discriminant is then used to determine how the roots of the polynomial should be calculated. If the discriminant is positive or zero, then the roots are real and as such are given as:
    
         x1 = (-b + sqrt(disc))/(2*a);
         x2 = (-b - sqrt(disc))/(2*a);
         
-   If the discriminant is negative, then the roots are complex and so are given as:
+   If the discriminant is negative, then the roots are complex and as such are given as:
    
         xreal = -b/(2*a);
         ximag = sqrt(-disc)/(2*a);
@@ -29,7 +29,6 @@
    **Implementation/Code:** The following is the code for nmqproots.cpp:
 
         #include<iostream>
-        #include<iomanip>
         #include<math.h>
         using namespace std;
 
