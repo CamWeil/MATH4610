@@ -12,9 +12,7 @@
 
    **Usage/Example:** The routine defines two float variables, eps and preveps, in which the value of the machine epsilon is found using the loop: 
 
-         while ((1+eps) != 1)
-        
-         {
+         while ((1+eps) != 1){
              preveps = eps;
         
              eps /= 2;
