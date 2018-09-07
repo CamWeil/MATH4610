@@ -4,7 +4,7 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute the roots of a quadratic polynomial. This is a routine for solving any polynomial of the form ax^2 + bx + c so long as a ≠ 0.
+   **Description/Purpose:** This routine will compute the roots of a quadratic polynomial. This is a routine for solving any equation of the form ax^2 + bx + c so long as a ≠ 0.
 
    **Input:** There are inputs needed for a, b, and c.
 
@@ -12,7 +12,7 @@
    
       <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
-   **Usage/Example:** The routine defines eight float variables, a, b, c, x1, x2, disc, xreal, and ximag.  
+   **Usage/Example:** The routine defines eight float variables, a, b, c, x1, x2, disc, xreal, and ximag. a, b, and c are inputs, 
 
          while((1+eps) != 1){
              preveps = eps;
