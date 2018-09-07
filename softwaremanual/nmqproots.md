@@ -24,7 +24,7 @@
         xreal = -b/(2*a);
         ximag = sqrt(-disc)/(2*a);
 
-  This is necessary to ensure that the routine never has to take the square root of a negative number, which would otherwise return an undefined value. It is also worth noting that if the discriminant is zero, then x1 and x2 will return identical values, as only one root exists in such a case.
+  This is necessary to ensure that the routine never has to take the square root of a negative number, which would otherwise return an undefined value. It is also worth noting that if the discriminant is zero, then x1 and x2 will return identical values.
 
    **Implementation/Code:** The following is the code for nmqproots.cpp:
 
