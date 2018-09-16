@@ -4,14 +4,22 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will implement the bisection method of root solving for the equations f(x) = x^2 - 3 and f(x) = sin(pi*x).
+   **Description/Purpose:** This routine will implement the bisection method of root solving for the equations f(x) = x<sup>2</sup> - 3 and f(x) = sin(pix).
 
-   **Input:** There are inputs needed for a and b to bracket a root, tol to determine the tolerated level of error, and maxiter for the maximum number of iterations, all of which are prompted for at the beginning of the routine.
+   **Input:** There are inputs needed for a and b to bracket a root, tol for the tolerated level of error, and maxiter for the maximum number of iterations. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine returns the two roots to the solution x = (-b ± √(b<sup>2</sup> - 4ac))/(2a). For example, the inputs a = 1, b = 2, and c = 3 will return the output:
+   **Output:** This routine returns any root that exists between the inputted values of a and b. For example, the inputs a = 1, b = 2, tol = 0.001, and maxiter = 1000 for the equation f(x) = x<sup>2</sup> - 3 will return the output:
   
-        x1 = -1 + 1.41421i
-        x2 = -1 - 1.41421i
+        Iteration 0: x = 1.5
+        Iteration 1: x = 1.75
+        Iteration 2: x = 1.625
+        Iteration 3: x = 1.6875
+        Iteration 4: x = 1.71875
+        Iteration 5: x = 1.73438
+        Iteration 6: x = 1.72656
+        Iteration 7: x = 1.73047
+        Iteration 8: x = 1.73242
+        The approximated root of x^2 - 3 = 0 is x = 1.73242.
 
    **Usage/Example:** The routine defines eight float variables, a, b, c, x1, x2, disc, xreal, and ximag. a, b, and c are the coefficients of the polynomial and disc is the discriminant of the polynomial, which is given as:
 
