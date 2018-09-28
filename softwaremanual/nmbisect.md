@@ -8,7 +8,7 @@
 
    **Input:** There are inputs needed for a and b to bracket a root, tol for the tolerated level of error, and maxiter for the maximum number of iterations. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine returns any root that exists between the inputted values of a and b. For example, the inputs a = 1, b = 2, tol = 0.001, and maxiter = 1000 for the equation f(x) = x<sup>2</sup> - 3 will return the output:
+   **Output:** This routine returns a double of any root that exists between the inputted values of a and b. For example, the inputs a = 1, b = 2, tol = 0.001, and maxiter = 1000 for the equation f(x) = x<sup>2</sup> - 3 will return the output:
   
         Iteration 0: x = 1.5
         Iteration 1: x = 1.75
