@@ -4,7 +4,7 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will absolute error between a machine precision number, x, and an "exact" value, y.
+   **Description/Purpose:** This routine will calculate the absolute error between a machine precision number, x, and an "exact" value, y.
 
    **Input:** There are inputs needed for x and y. These inputs are prompted for at the beginning of the routine.
 
@@ -29,6 +29,11 @@
         int main(){
             cout << "Enter machine precision number x: ";
             cin >> x;
+            
+            if(x == 0){
+                cout << "x cannot be 0. Enter machine precision number x: ";
+                cin >> x;
+            }
     
             cout << "Enter exact value y: ";
             cin >> y;
