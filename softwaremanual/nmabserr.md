@@ -1,93 +1,50 @@
-3. **Routine Name:**           smaceps
+3. **Routine Name:**           nmabserr
 
-**Author:** Joe Koebbe
+   **Author:** Cam Weil
 
-**Language:** Fortran. The code can be compiled using the GNU Fortran compiler (gfortran).
+   **Language:** C++
 
-For example,
+   **Description/Purpose:** This routine will absolute error between a machine precision number, x, and an "exact" value, y.
 
-    gfortran smaceps.f
+   **Input:** There are inputs needed for x and y.
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
+   **Output:** This routine returns a double value of the absolute error e<sub>abs</sub> = |x - y|. 
 
-    gfortran -o smaceps smaceps.f
+   **Usage/Example:** The routine defines two float variables, eps and preveps, in which the value of the machine epsilon is found using the loop: 
 
-**Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits
-in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
-usually will need to be run one time for each computer.
+        while((1+eps) != 1){
+            preveps = eps;
+            eps /= 2;
+        }
+            
+   This defines the smallest number of eps such that 1 + eps is not equal to 1, which is then copied into preveps during each iteration. eps is divided by 2 in order to determine when the difference between 1 and the approximation is 0 in single precision, such that preveps is used as the output for the final machine epsilon when the approximation fails. This procedure is then repeated using double variables instead of float variables, and the output that each respective loop gives (in the author's case) is:
 
-**Input:** There are no inputs needed in this case. Even though there are arguments supplied, the real purpose is to
-return values in those variables.
+        Machine Epsilon (float) is : 1.19209e-07
+        Machine Epsilon (double) is : 2.22045e-16
+        Program ended with exit code: 0
 
-**Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
-computer being queried.
+   **Implementation/Code:** The following is the code for nmabserr.cpp:
 
-**Usage/Example:**
+        #include<iostream>
+        #include<math.h>
+        using namespace std;
 
-The routine has two arguments needed to return the values of the precision in terms of the smallest number that can be
-represented. Since the code is written in terms of a Fortran subroutine, the values of the machine machine epsilon and
-the power of two that gives the machine epsilon. Due to implicit Fortran typing, the first argument is a single precision
-value and the second is an integer.
+        double x, y, abserr;
 
-      call smaceps(sval, ipow)
-      print *, ipow, sval
+        int main(){
+            cout << "Enter machine precision number x: ";
+            cin >> x;
+    
+            cout << "Enter exact value y: ";
+            cin >> y;
+    
+            abserr = fabs(x - y);
+    
+            cout << "Absolute Error: " << abserr << endl;
+    
+            return 0;
+        }
 
-Output from the lines above:
 
-      24   5.96046448E-08
-
-The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
-decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
-end of the second value).
-
-**Implementation/Code:** The following is the code for smaceps()
-
-      subroutine smaceps(seps, ipow)
-    c
-    c set up storage for the algorithm
-    c --------------------------------
-    c
-          real seps, one, appone
-    c
-    c initialize variables to compute the machine value near 1.0
-    c ----------------------------------------------------------
-    c
-          one = 1.0
-          seps = 1.0
-          appone = one + seps
-    c
-    c loop, dividing by 2 each time to determine when the difference between one and
-    c the approximation is zero in single precision
-    c --------------------------------------------- 
-    c
-          ipow = 0
-          do 1 i=1,1000
-             ipow = ipow + 1
-    c
-    c update the perturbation and compute the approximation to one
-    c ------------------------------------------------------------
-    c
-            seps = seps / 2
-            appone = one + seps
-    c
-    c do the comparison and if small enough, break out of the loop and return
-    c control to the calling code
-    c ---------------------------
-    c
-            if(abs(appone-one) .eq. 0.0) return
-    c
-        1 continue
-    c
-    c if the code gets to this point, there is a bit of trouble
-    c ---------------------------------------------------------
-    c
-          print *,"The loop limit has been exceeded"
-    c
-    c done
-    c ----
-    c
-          return
-    end
-
-**Last Modified:** September/2017
+        
+   **Last Modified:** September/2018
