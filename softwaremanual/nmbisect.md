@@ -1,4 +1,4 @@
-3. **Routine Name:**           nmbisect
+5. **Routine Name:**           nmbisect
 
    **Author:** Cam Weil
 
