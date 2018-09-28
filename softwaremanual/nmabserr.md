@@ -8,7 +8,9 @@
 
    **Input:** There are inputs needed for x and y. These inputs are prompted for at the beginning of the routine.
 
-   **Output:** This routine returns the absolute error, e<sub>abs</sub> = |x - y|. 
+   **Output:** This routine returns the absolute error, e<sub>abs</sub> = |x - y|. For example, the inputs x = 1 and y = 2 will return the output:
+
+        Absolute Error: 1
 
    **Usage/Example:** The routine defines a double variable, abserr, which is defined as:
 
