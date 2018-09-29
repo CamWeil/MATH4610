@@ -8,18 +8,17 @@
 
    **Input:** There are inputs needed for a and b to bracket a root, tol for the tolerated level of error, and maxiter for the maximum number of iterations. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine returns any root that exists between the inputted values of a and b. For example, the inputs a = 1, b = 2, tol = 0.001, and maxiter = 1000 for the equation f(x) = x<sup>2</sup> - 3 will return the output:
+   **Output:** This routine returns any root that exists between the inputted values of a and b. For example, the inputs a = 1, b = 2, tol = 0.001, and maxiter = 100 for the equation f(x) = x<sup>2</sup> - 3 will return the output:
   
-        Iteration 0: x = 1.5
-        Iteration 1: x = 1.75
-        Iteration 2: x = 1.625
-        Iteration 3: x = 1.6875
-        Iteration 4: x = 1.71875
-        Iteration 5: x = 1.73438
-        Iteration 6: x = 1.72656
-        Iteration 7: x = 1.73047
-        Iteration 8: x = 1.73242
-        The approximated root of x^2 - 3 = 0 is x = 1.73242.
+        Iteration 1: x = 1.5
+        Iteration 2: x = 1.75
+        Iteration 3: x = 1.625
+        Iteration 4: x = 1.6875
+        Iteration 5: x = 1.71875
+        Iteration 6: x = 1.73438
+        Iteration 7: x = 1.72656
+        Iteration 8: x = 1.73047
+        The approximated root of x^2 - 3 = 0 is x = 1.73047.
 
    **Usage/Example:** The routine defines eight double variables, a, b, c, fa, fb, fc, k, and tol, as well as two int variables, i and maxiter. a and b represent the ends of an interval where f(x) is known to change sign, and fa and fb are f(a) and f(b) respectively. c is the midpoint between a and b during a given iteration, and fc is f(c). k is a value that guarantees the convergence of the algorithm, which is given as:
 
