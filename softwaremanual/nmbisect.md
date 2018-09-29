@@ -96,6 +96,7 @@
                         a = c;
                         fa = fc;
                     }
+                    
                     cout << "Iteration " << i << ": x = " << c << endl;
         
                 }
@@ -128,6 +129,7 @@
                         a = c;
                         fa = fc;
                     }
+                    
                     cout << "Iteration " << i << ": x = " << c << endl;
             
                 }
