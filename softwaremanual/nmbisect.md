@@ -6,9 +6,9 @@
 
    **Description/Purpose:** This routine will implement the bisection method of root solving for the equations f(x) = x<sup>2</sup> - 3 and f(x) = sin(pi*x).
 
-   **Input:** There are inputs needed for a and b to bracket a root, tol for the tolerated level of error, and maxiter for the maximum number of iterations. These inputs are all prompted for at the beginning of the routine.
+   **Input:** There are inputs needed for a and b to bracket a root, and tol for the tolerated level of error. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine returns any root that exists between the inputted values of a and b. For example, the inputs a = 1, b = 2, tol = 0.001, and maxiter = 100 for the equation f(x) = x<sup>2</sup> - 3 will return the output:
+   **Output:** This routine returns any root that exists between the inputted values of a and b. For example, the inputs a = 1, b = 2, and tol = 0.001 for the equation f(x) = x<sup>2</sup> - 3 will return the output:
   
         Iteration 1: x = 1.5
         Iteration 2: x = 1.75
@@ -20,7 +20,7 @@
         Iteration 8: x = 1.73047
         The approximated root of x^2 - 3 = 0 is x = 1.73047.
 
-   **Usage/Example:** The routine defines eight double variables, a, b, c, fa, fb, fc, k, and tol, as well as two int variables, i and maxiter. a and b represent the ends of an interval where f(x) is known to change sign, and fa and fb are f(a) and f(b) respectively. c is the midpoint between a and b during a given iteration, and fc is f(c). k is a value that guarantees the convergence of the algorithm, which is given as:
+   **Usage/Example:** The routine defines eight double variables, a, b, c, fa, fb, fc, k, and tol, as well as one int variable, i. a and b represent the ends of an interval where f(x) is known to change sign, and fa and fb are f(a) and f(b) respectively. c is the midpoint between a and b during a given iteration, and fc is f(c). k is a value that guarantees the convergence of the algorithm, which is given as:
 
         k = log2(fabs(b - a)/(2*tol));
    
@@ -33,7 +33,7 @@
         using namespace std;
 
         double a, b, c, fa, fb, fc, k, tol;
-        int i, maxiter;
+        int i;
 
         double f1(double x){
             return x*x - 3;
@@ -50,14 +50,6 @@
             if(tol == 0){
                 cout << "Tolerance level cannot be 0. Enter tolerance level: ";
                 cin >> tol;
-            }
-    
-            cout << "Enter maximum number of iterations: ";
-            cin >> maxiter;
-    
-            if(maxiter == 0){
-                cout << "Maximum number of iterations cannot be 0. Enter maximum number of iterations: ";
-                cin >> maxiter;
             }
     
             cout << "Enter boundary a: ";
