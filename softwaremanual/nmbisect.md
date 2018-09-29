@@ -20,7 +20,7 @@
         Iteration 8: x = 1.73047
         The approximated root of x^2 - 3 = 0 is x = 1.73047.
 
-   **Usage/Example:** The routine defines eight double variables, a, b, c, fa, fb, fc, k, and tol, as well as one int variable, i. a and b represent the ends of an interval where f(x) is known to change sign, and fa and fb are f(a) and f(b) respectively. c is the midpoint between a and b during a given iteration, and fc is f(c). k is a value that guarantees the convergence of the algorithm, which is given as:
+   **Usage/Example:** The routine defines eight double variables, a, b, c, fa, fb, fc, k, and tol, as well as one int variable, i. a and b represent the ends of an interval where f(x) is known to change sign, and fa and fb are f(a) and f(b) respectively. c is the midpoint between a and b during a given iteration, and fc is f(c). tol indicates how close the value of c must be during a given iteration to be taken as a satisfactory solution. k is a value that guarantees the convergence of the algorithm, which is given as:
 
         k = log2(fabs(b - a)/(2*tol));
    
