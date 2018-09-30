@@ -36,7 +36,7 @@
         using namespace std;
 
         double p, p0, tol;
-        int i, maxiter;
+        int i = 1, maxiter;
 
         double g1(double x){
             return x - (x*x - 3)/10;
@@ -68,7 +68,7 @@
     
             // code for x^2 - 3 = 0
     
-          for(i = 1; i <= maxiter; i++){
+          while(i <= maxiter){
                 p = g1(p0);
                 cout << "Iteration " << i << ": x = " << p << endl;
        
@@ -76,7 +76,8 @@
                     cout << "The approximated root of x^2 - 3 = 0 is x = " << p << "." << endl;
                     break;
                 }
-
+                
+                i++;
                 p0 = p;
         
                 if(i > maxiter){
@@ -88,7 +89,7 @@
     
             // code for sin(pi*x) = 0
     
-            /*for(i = 1; i <= maxiter; i++){
+            /*while(i <= maxiter){
                 p = g2(p0);
                 cout << "Iteration " << i << ": x = " << p << endl;
      
@@ -98,6 +99,7 @@
                     break;
                 }
      
+                i++;
                 p0 = p;
         
                 if(i > maxiter){
