@@ -1,4 +1,4 @@
-7. **Routine Name:**           nmfunciter
+7. **Routine Name:**           nmnewton
 
    **Author:** Cam Weil
 
