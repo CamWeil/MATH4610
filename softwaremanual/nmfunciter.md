@@ -8,7 +8,7 @@
 
    **Input:** There are inputs needed for p0 as an initial estimate, tol for the tolerated level of error, and maxiter for the maximum number of iterations. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine returns a root that exists near enough to the inputted intial estimate such that f(x) = 0 if and only if g(x) = x. For example, the inputs p0 = 1, tol = 0.001, and maxiter = 1000 for the equation g(x) = x - (x<sup>2</sup> - 3)/10 will return the output:
+   **Output:** This routine returns a root that exists near enough to the inputted intial estimate such that f(x) = 0 if and only if g(x) = x. For example, the inputs p0 = 1, tol = 0.001, and maxiter = 100 for the equation g(x) = x - (x<sup>2</sup> - 3)/10 will return the output:
   
         Iteration 1: x = 1.2
         Iteration 2: x = 1.356
