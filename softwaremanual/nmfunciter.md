@@ -68,7 +68,7 @@
     
             // code for x^2 - 3 = 0
     
-          for(i = 1; i < maxiter; i++){
+          for(i = 1; i <= maxiter; i++){
                 p = g1(p0);
                 cout << "Iteration " << i << ": x = " << p << endl;
        
@@ -88,7 +88,7 @@
     
             // code for sin(pi*x) = 0
     
-            /*for(i = 1; i < maxiter; i++){
+            /*for(i = 1; i <= maxiter; i++){
                 p = g2(p0);
                 cout << "Iteration " << i << ": x = " << p << endl;
      
