@@ -8,7 +8,7 @@
 
    **Input:** There are inputs needed for a and b to bracket a root, tol for the tolerated level of error, and maxiter for the maximum number of iterations. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine first attempts to find a root using the secant method. If this fails, the routine will implement four steps of the bisection method to ensure that a root is bracketed, and then return to Newton's method to complete the algorithm. For example, the inputs a = 1, b = 10, tol = 0.001, and maxiter = 3 for the equation f(x) = x<sup>2</sup> - 3 will return the output:
+   **Output:** This routine first attempts to find a root using the secant method. If this fails, the routine will implement four steps of the bisection method to ensure that a root is bracketed, and then return to the secant method to complete the algorithm. For example, the inputs a = 1, b = 10, tol = 0.001, and maxiter = 3 for the equation f(x) = x<sup>2</sup> - 3 will return the output:
   
         Iteration 1: x = 1.18182
         Iteration 2: x = 1.3252
