@@ -33,7 +33,7 @@
         using namespace std;
 
         double a, b, c, fa, fb, fc, p, p0, tol;
-        int i = 1, j, k, maxiter;
+        int i = 1, j, k = 1, maxiter;
 
         double f1(double x){
             return x*x - 3;
@@ -128,7 +128,7 @@
                     p0 = c;
                     cout << "Root bracketed. Implementing Newton's method. " << endl;
 
-                    for(k = 1; k <= maxiter; k++){
+                    while(k <= maxiter){
                         p = p0 - (f1(p0))/(df1(p0));
                         cout << "Iteration " << i + j + k - 2 << ": x = " << p << endl;
 
@@ -137,6 +137,7 @@
                             break;
                         }
 
+                        k++;
                         p0 = p;
 
                         if(k > maxiter){
@@ -193,7 +194,7 @@
                     p0 = c;
                     cout << "Root bracketed. Implementing Newton's method. " << endl;
 
-                    for(k = 1; k <= maxiter; k++){
+                    while(k <= maxiter){
                         p = p0 - (f2(p0))/(df2(p0));
                         cout << "Iteration " << i + j + k - 2 << ": x = " << p << endl;
 
@@ -202,6 +203,7 @@
                             break;
                         }
 
+                        k++;
                         p0 = p;
 
                         if(k > maxiter){
