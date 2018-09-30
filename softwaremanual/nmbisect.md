@@ -75,7 +75,7 @@
             else{
                 k = log2(fabs(b - a)/(2*tol));
         
-                for(i = 1; i < k; i++){
+                for(i = 1; i <= k; i++){
                     c = 0.5*(a + b);
                     fc = f1(c);
             
@@ -108,7 +108,7 @@
             else{
                 k = log2(fabs(b - a)/(2*tol));
         
-                for(i = 1; i < k; i++){
+                for(i = 1; i <= k; i++){
                     c = 0.5*(a + b);
                     fc = f2(c);
             
