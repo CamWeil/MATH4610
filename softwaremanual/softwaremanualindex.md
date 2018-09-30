@@ -14,6 +14,8 @@ Software Manual Index
 
 7. [Newton's Method Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmnewton.md)
 
-8. [Hybrid Method Entry (Bisection and Newton)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmhybridbn.md)
+8. [Secant Method Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmsecant.md)
 
-9. [Hybrid Method Entry (Bisection and Secant)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmhybridbs.md)
+9. [Hybrid Method Entry (Bisection and Newton)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmhybridbn.md)
+
+10. [Hybrid Method Entry (Bisection and Secant)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmhybridbs.md)
