@@ -65,7 +65,7 @@
     
             // code for x^2 - 3 = 0
     
-            for(i = 1; i <= maxiter; i++){
+            while(i <= maxiter){
                 p = p0 - (f1(p0))/(df1(p0));
                 cout << "Iteration " << i << ": x = " << p << endl;
         
@@ -74,6 +74,7 @@
                     break;
                 }
         
+                i++;
                 p0 = p;
         
               if(i > maxiter){
@@ -85,7 +86,7 @@
     
             // code for sin(pi*x) = 0
     
-            /*for(i = 1; i <= maxiter; i++){
+            /*while(i <= maxiter){
                 p = p0 - (f2(p0))/(df2(p0));
                 cout << "Iteration " << i << ": x = " << p << endl;
      
@@ -94,6 +95,7 @@
                     break;
                 }
      
+                i++;
                 p0 = p;
      
                 if(i > maxiter){
