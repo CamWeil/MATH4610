@@ -24,7 +24,7 @@
 
         k = log2(fabs(b - a)/(2*tol));
    
-   So long as i < k, the iteration loop will continue until a root is found. If the loop surpasses the value inputted by maxiter, then the algorithm will fail. It is also worth noting that the code contains algorithms for both f(x) = x<sup>2</sup> - 3 and f(x) = sin(pix), but the two should not be run at the same time. Thus, one equation or another can be commented out depending on which algorithm the user wants to work with at any given moment.
+   So long as i < k, the iteration loop will continue until a root is found. If the loop surpasses the value inputted by maxiter, then the algorithm will fail. It is also worth noting that the code contains algorithms for both f(x) = x<sup>2</sup> - 3 and f(x) = sin(pi*x), but the two should not be run at the same time. Thus, one equation or another can be commented out depending on which algorithm the user wants to work with at any given moment.
 
    **Implementation/Code:** The following is the code for nmbisect.cpp:
 
