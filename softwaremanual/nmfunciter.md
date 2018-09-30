@@ -4,7 +4,7 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will implement the functional iteration method of root solving for the equations f(x) = x<sup>2</sup> - 3 and f(x) = sin(pix).
+   **Description/Purpose:** This routine will implement the functional iteration method of root solving for the equations f(x) = x<sup>2</sup> - 3 and f(x) = sin(pi*x).
 
    **Input:** There are inputs needed for p0 as an initial estimate, tol for the tolerated level of error, and maxiter for the maximum number of iterations. These inputs are all prompted for at the beginning of the routine.
 
@@ -27,7 +27,7 @@
         Iteration 15: x = 1.73027
         The approximated root of x^2 - 3 = 0 is x = 1.73027.
 
-   **Usage/Example:** The routine defines three double variables, p, p0, and tol, as well as two int variables, i and maxiter. p0 represent an initial estimate for the root of a function, and p is used to redefine p0 at the end of every iteration. tol indicates how close the value of p must be during a given iteration to be taken as a satisfactory solution. If the loop surpasses the value inputted by maxiter, then the algorithm will fail. It is also worth noting that the code contains algorithms for both f(x) = x<sup>2</sup> - 3 and f(x) = sin(pix), but the two should not be run at the same time. Thus, one equation or another can be commented out depending on which algorithm the user wants to work with at any given moment.
+   **Usage/Example:** The routine defines three double variables, p, p0, and tol, as well as two int variables, i and maxiter. p0 represent an initial estimate for the root of a function, and p is used to redefine p0 at the end of every iteration. tol indicates how close the value of p must be during a given iteration to be taken as a satisfactory solution. If the loop surpasses the value inputted by maxiter, then the algorithm will fail. It is also worth noting that the code contains algorithms for both f(x) = x<sup>2</sup> - 3 and f(x) = sin(pi*x), but the two should not be run at the same time. Thus, one equation or another can be commented out depending on which algorithm the user wants to work with at any given moment.
 
    **Implementation/Code:** The following is the code for nmfunciter.cpp:
 
