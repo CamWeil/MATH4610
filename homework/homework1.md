@@ -1,6 +1,8 @@
 Homework 1
 
-1. [Machine Epsilon Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmmaceps.md)
+1a. [Machine Epsilon Software Manual Entry (Single Precision)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmmaceps.md)
+
+1b. [Machine Epsilon Software Manual Entry (Double Precision)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmdmaceps.md)
 
 2. [Quadratic Polynomial Roots Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmqproots.md)
 
