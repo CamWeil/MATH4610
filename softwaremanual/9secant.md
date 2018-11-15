@@ -1,4 +1,4 @@
-8. **Routine Name:**           nmsecant
+9. **Routine Name:**           nmsecant
 
    **Author:** Cam Weil
 
