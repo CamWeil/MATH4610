@@ -6,18 +6,22 @@ Software Manual Index
 
 2. [Quadratic Polynomial Roots Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmqproots.md)
 
-3. [Absolute Error Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmabserr.md)
+3a. [Absolute Error Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmabserr.md)
 
-4. [Relative Error Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmrelerr.md)
+3b. [Relative Error Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmrelerr.md)
 
-5. [Functional Iteration Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmfunciter.md)
+4.
 
-6. [Bisection Method Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmbisect.md)
+5.
 
-7. [Newton's Method Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmnewton.md)
+6. [Functional Iteration Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmfunciter.md)
 
-8. [Secant Method Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmsecant.md)
+7. [Bisection Method Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmbisect.md)
 
-9. [Hybrid Method Entry (Bisection and Newton)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmhybridbn.md)
+8. [Newton's Method Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmnewton.md)
 
-10. [Hybrid Method Entry (Bisection and Secant)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmhybridbs.md)
+9. [Secant Method Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmsecant.md)
+
+10. [Hybrid Method Entry (Bisection and Newton)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmhybridbn.md)
+
+11. [Hybrid Method Entry (Bisection and Secant)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmhybridbs.md)
