@@ -1,4 +1,4 @@
-6. **Routine Name:**           4funciter
+6. **Routine Name:**           funciter
 
    **Author:** Cam Weil
 
