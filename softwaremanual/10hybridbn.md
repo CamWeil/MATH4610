@@ -1,4 +1,4 @@
-8. **Routine Name:**           nmhybridbn
+10. **Routine Name:**           nmhybridbn
 
    **Author:** Cam Weil
 
