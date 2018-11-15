@@ -1,4 +1,4 @@
-7. **Routine Name:**           nmnewton
+8. **Routine Name:**           nmnewton
 
    **Author:** Cam Weil
 
