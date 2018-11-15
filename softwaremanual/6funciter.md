@@ -1,4 +1,4 @@
-6. **Routine Name:**           funciter
+6. **Routine Name:**           nmfunciter
 
    **Author:** Cam Weil
 
