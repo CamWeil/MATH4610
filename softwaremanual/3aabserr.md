@@ -1,4 +1,4 @@
-3. **Routine Name:**           nmabserr
+3a. **Routine Name:**           nmabserr
 
    **Author:** Cam Weil
 
