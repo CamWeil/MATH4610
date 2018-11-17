@@ -20,7 +20,7 @@ Homework 3
 
 10. Problem: Perform an online search using the term Kronecker product. Find sites that describe the product and applications of the Kronecker product. Write up a paragraph or two describing this topic citing at least three web pages and/or web sites.
 
-    Answer: 
+    Answer: The Kronecker product is defined by A ⊗ B = \[a<sub>ij</sub>B\]
     
     Source: https://en.wikipedia.org/wiki/Lyapunov_equation
     
