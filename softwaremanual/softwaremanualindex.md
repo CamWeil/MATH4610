@@ -2,7 +2,7 @@ Software Manual Index
 
 1a. [Machine Epsilon Entry (Single Precision)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmmaceps.md)
 
-1a. [Machine Epsilon Entry (Double Precision)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmdmaceps.md)
+1b. [Machine Epsilon Entry (Double Precision)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmdmaceps.md)
 
 2. [Quadratic Polynomial Roots Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/nmqproots.md)
 
