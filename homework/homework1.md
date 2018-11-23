@@ -1,8 +1,8 @@
 Homework 1
 
-1a. [Machine Epsilon Software Manual Entry (Single Precision)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmmaceps.md)
+1a. [Machine Epsilon Software Manual Entry (Single Precision)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/1amaceps.md)
 
-1b. [Machine Epsilon Software Manual Entry (Double Precision)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmdmaceps.md)
+1b. [Machine Epsilon Software Manual Entry (Double Precision)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/1bdmaceps.md)
 
 2. [Software Manual Index](https://github.com/CamWeil/math4610/blob/master/softwaremanual/softwaremanualindex.md)
 
@@ -14,7 +14,7 @@ Homework 1
 
 6. [Calculus/Differential Equations Solutions](https://github.com/CamWeil/math4610/blob/master/homework/nmhw1.pdf)
 
-7. [Quadratic Polynomial Roots Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmqproots.md)
+7. [Quadratic Polynomial Roots Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/2qproots.md)
 
 8. [Calculus/Differential Equations Solutions](https://github.com/CamWeil/math4610/blob/master/homework/nmhw1.pdf)
 
