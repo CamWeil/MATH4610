@@ -2,25 +2,25 @@ Homework 2
 
 Note: I have yet to figure out how to allow the user to input a function in each routine, so the equations from the homework were hard-coded in.
 
-1a. [Absolute Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmabserr.md)
+1a. [Absolute Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/3aabserr.md)
 
-1b. [Relative Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmrelerr.md)
+1b. [Relative Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/3brelerr.md)
 
 2. 
 
 3. 
 
-4. [Functional Iteration Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmfunciter.md)
+4. [Functional Iteration Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/6funciter.md)
 
-5. [Bisection Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmbisect.md)
+5. [Bisection Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/7bisect.md)
 
-6. [Newton's Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmnewton.md)
+6. [Newton's Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/8newton.md)
 
-7. [Secant Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmsecant.md)
+7. [Secant Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/9secant.md)
 
-8. [Hybrid Method Software Manual Entry (Bisection and Newton)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmhybridbn.md)
+8. [Hybrid Method Software Manual Entry (Bisection and Newton)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/10hybridbn.md)
 
-9. [Hybrid Method Software Manual Entry (Bisection and Secant)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/nmhybridbs.md)
+9. [Hybrid Method Software Manual Entry (Bisection and Secant)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/11hybridbs.md)
 
 10. Problem: Perform an online search for references to bracketing of roots of functions of a single real variable. Look for applications and explanations of how to bracket roots of nonlinear functions. Make sure that you cite at least three sources. You can cite websites and/or web pages that discuss bracketing.
 
