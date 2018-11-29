@@ -10,7 +10,7 @@
 
    **Output:** This routine simply calculates the sum of the magnitude of each element of the vector, which is then given as the output.
 
-   **Usage/Example:** The routine defines one double variable, l1, as well as an int variable, n, and a vector of with double elements, v. n represents the length of the vector, l1 represents the l<sub>1</sub> norm of the vector, and v represents the vector itself. The l<sub>1</sub> norm is calculated using the for loop:
+   **Usage/Example:** The routine defines one double variable, l1, as well as an int variable, n, and a vector with double elements, v. n represents the length of the vector, l1 represents the l<sub>1</sub> norm of the vector, and v represents the vector itself. The l<sub>1</sub> norm is calculated using the for loop:
    
         for(vector<double>::size_type i = 0; i < n; i++){
             l1 = l1 + fabs(v[i]);
