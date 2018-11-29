@@ -26,9 +26,9 @@ Software Manual Index
 
 11. [Hybrid Method Entry (Bisection and Secant)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/11hybridbs.md)
 
-12a. [Vector Norms (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12avecnorml1.md)
+12a. [Vector Norm Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12avecnorml1.md)
 
-12b. [Vector Norms (l<sub>2</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12bvecnorml2.md)
+12b. [Vector Norm Entry (l<sub>2</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12bvecnorml2.md)
 
-12c. [Vector Norms (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12cvecnormlinf.md)
+12c. [Vector Norm Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12cvecnormlinf.md)
 
