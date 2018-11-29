@@ -30,7 +30,7 @@
             }
         }
 
-   **Implementation/Code:** The following is the code for nmvecerrl2.cpp:
+   **Implementation/Code:** The following is the code for nmvecerrlinf.cpp:
 
         #include<iostream>
         #include<math.h>
