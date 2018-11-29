@@ -1,10 +1,11 @@
 Homework 3
 
-1a.
 
-1b.
+1a. [Vector Norm Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12avecnorml1.md)
 
-1c.
+1b. [Vector Norm Software Manual Entry (l<sub>2</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12bvecnorml2.md)
+
+1c. [Vector Norm Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12cvecnormlinf.md)
 
 2a.
 
