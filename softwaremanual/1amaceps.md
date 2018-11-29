@@ -17,7 +17,7 @@
             eps /= 2;
         }
             
-   This defines the smallest number of eps such that 1 + eps is not equal to 1, which is then copied into preveps during each iteration. eps is divided by 2 in order to determine when the difference between 1 and the approximation is 0 in single precision, such that preveps is used as the output for the final machine epsilon when the approximation fails. The outpute that the loop gives is:
+   This defines the smallest number of eps such that 1 + eps is not equal to 1, which is then copied into preveps during each iteration. eps is divided by 2 in order to determine when the difference between 1 and the approximation is 0 in single precision, such that preveps is used as the output for the final machine epsilon when the approximation fails. The output that the loop gives is:
 
         Machine Epsilon (float) is : 1.19209e-07
         Program ended with exit code: 0
