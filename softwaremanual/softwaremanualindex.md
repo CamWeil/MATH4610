@@ -32,9 +32,9 @@ Software Manual Index
 
 12c. [Vector Norm Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12cvecnormlinf.md)
 
-13a. [Vector Error Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13avecerrl1.md)
+13a. [Absolute and Relative Vector Error Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13avecerrl1.md)
 
-13b. [Vector Error Entry (l<sub>2</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13bvecerrl2.md)
+13b. [Absolute and Relative Vector Error Entry (l<sub>2</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13bvecerrl2.md)
 
-13c. [Vector Error Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13cvecerrlinf.md)
+13c. [Aboslute and Relative Vector Error Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13cvecerrlinf.md)
 
