@@ -8,7 +8,13 @@
    
    **Input:** There are inputs needed for the length of the vector and the elements of the vector. These inputs are both prompted for at the beginning of the routine.
 
-   **Output:** This routine simply calculates the sum of the magnitude of each element of the vector, which is then given as the output.
+   **Output:** This routine simply calculates the sum of the magnitude of each element of the vector, which is then given as the output. For example:
+   
+        Enter vector length: 3
+        Enter coordinate #1 for vector v: 1
+        Enter coordinate #2 for vector v: 2
+        Enter coordinate #3 for vector v: 3
+        l1-norm = 6.
 
    **Usage/Example:** The routine defines one double variable, l1, as well as an int variable, n, and a vector with double elements, v. n represents the length of the vector, l1 represents the l<sub>1</sub> norm of the vector, and v represents the vector itself. The l<sub>1</sub> norm is calculated using the loop:
    
