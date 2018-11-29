@@ -7,7 +7,7 @@ Homework 3
 
 1c. [Vector Norm Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12cvecnormlinf.md)
 
-2a.[Absolute and Relative Vector Errors Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13avecerrl1.md)
+2a. [Absolute and Relative Vector Errors Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13avecerrl1.md)
 
 2b. [Absolute and Relative Vector Errors Software Manual Entry (l<sub>2</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13bvecerrl2.md)
 
