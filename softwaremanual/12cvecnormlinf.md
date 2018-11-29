@@ -1,24 +1,28 @@
-12b. **Routine Name:**           nmvecnorml2
+12c. **Routine Name:**           nmvecnormlinf
 
    **Author:** Cam Weil
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the l<sub>2</sub> norm (length) of a given vector of arbitrary length.
+   **Description/Purpose:** This routine will compute and return the l<sub>∞</sub> norm (length) of a given vector of arbitrary length.
    
    **Input:** There are inputs needed for the length of the vector and the elements of the vector. These inputs are both prompted for at the beginning of the routine.
 
-   **Output:** This routine simply calculates the square root of the sum of the of the squares of each element of the vector, which is then given as the output.
+   **Output:** This routine simply calculates the maximum magnitude of all the elements of the vector, which is then given as the output.
 
-   **Usage/Example:** The routine defines one double variable, l2, as well as an int variable, n, and a vector with double elements, v. n represents the length of the vector, l2 represents the l<sub>2</sub> norm of the vector, and v represents the vector itself. The l<sub>2</sub> norm is calculated using the loop:
+   **Usage/Example:** The routine defines one double variable, linf, as well as an int variable, n, and a vector with double elements, v. n represents the length of the vector, linf represents the l<sub>∞</sub> norm of the vector, and v represents the vector itself. The l<sub∞</sub> norm is calculated using the loop:
    
         for(vector<double>::size_type i = 0; i < n; i++){
-            l2 = l2 + (v[i])*(v[i]);
+            if(fabs(v[i]) > linf){
+                linf = fabs(v[i]);
+            }
+        
+            else{
+                linf = linf;
+            }
         }
-    
-        l2 = sqrt(l2);
 
-   **Implementation/Code:** The following is the code for nmvecnorml2.cpp:
+   **Implementation/Code:** The following is the code for nmvecnormlinf.cpp:
 
         #include<iostream>
         #include<math.h>
@@ -26,7 +30,7 @@
         using namespace std;
 
         int n;
-        double l2 = 0;
+        double linf = 0;
 
         int main(){
             cout << "Enter vector length: ";
@@ -40,14 +44,18 @@
             }
 
             for(vector<double>::size_type i = 0; i < n; i++){
-                l2 = l2 + (v[i])*(v[i]);
+                if(fabs(v[i]) > linf){
+                    linf = fabs(v[i]);
+                }
+        
+                else{
+                    linf = linf;
+                }
             }
     
-            l2 = sqrt(l2);
-    
-            cout << "l2-norm = " << l2 << "." << endl;
+            cout << "l∞-norm = " << linf << "." << endl;
 
             return 0;
-         }
+        }
 
    **Last Modified:** November/2018
