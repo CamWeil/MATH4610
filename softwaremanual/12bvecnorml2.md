@@ -8,15 +8,17 @@
    
    **Input:** There are inputs needed for the length of the vector and the elements of the vector. These inputs are both prompted for at the beginning of the routine.
 
-   **Output:** This routine simply calculates the sum of the magnitude of each element of the vector, which is then given as the output.
+   **Output:** This routine simply calculates the square root of the sum of the of the squares of each element of the vector, which is then given as the output.
 
-   **Usage/Example:** The routine defines one double variable, l1, as well as an int variable, n, and a vector of with double elements, v. n represents the length of the vector, l1 represents the l<sub>1</sub> norm of the vector, and v represents the vector itself. The l<sub>1</sub> norm is calculated using the for loop:
+   **Usage/Example:** The routine defines one double variable, l2, as well as an int variable, n, and a vector with double elements, v. n represents the length of the vector, l2 represents the l<sub>2</sub> norm of the vector, and v represents the vector itself. The l<sub>2</sub> norm is calculated using the loop:
    
         for(vector<double>::size_type i = 0; i < n; i++){
-            l1 = l1 + fabs(v[i]);
+            l2 = l2 + (v[i])*(v[i]);
         }
+    
+        l2 = sqrt(l2);
 
-   **Implementation/Code:** The following is the code for nmvecnorml1.cpp:
+   **Implementation/Code:** The following is the code for nmvecnorml2.cpp:
 
         #include<iostream>
         #include<math.h>
@@ -24,7 +26,7 @@
         using namespace std;
 
         int n;
-        double l1 = 0;
+        double l2 = 0;
 
         int main(){
             cout << "Enter vector length: ";
@@ -38,12 +40,14 @@
             }
 
             for(vector<double>::size_type i = 0; i < n; i++){
-                l1 = l1 + fabs(v[i]);
+                l2 = l2 + (v[i])*(v[i]);
             }
-
-            cout << "l1-norm = " << l1 << "." << endl;
+    
+            l2 = sqrt(l2);
+    
+            cout << "l2-norm = " << l2 << "." << endl;
 
             return 0;
-        }
+         }
 
    **Last Modified:** November/2018
