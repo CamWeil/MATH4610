@@ -1,24 +1,34 @@
-13b. **Routine Name:**           nmvecerrl2
+13c. **Routine Name:**           nmvecerrlinf
 
    **Author:** Cam Weil
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the absolute and relative errors of the l<sub>2</sub> norm (length) of an "exact" vector and a vector used to approximate the exact vector.
+   **Description/Purpose:** This routine will compute and return the absolute and relative errors of the l<sub>∞</sub> norm (length) of an "exact" vector and a vector used to approximate the exact vector.
    
    **Input:** There are inputs needed for the length of the two vectors and the elements of the exact vector and the approximate vector. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine simply calculates the square root of the sum of the of the squares of each element of both the exact vector and the approximate vector, and then the absolute and relative errors of these values, which is given as the output.
+   **Output:** This routine simply calculates the maximum magnitudes of all the elements of both the exact vector and the approximate vector, and then the absolute and relative errors of these magnitues, which is given as the output.
 
-   **Usage/Example:** The routine defines two double variables, l2x and l2y, as well as an int variable, n, and two vectors with double elements, x and y. n represents the length of the two vectors, l2x represents the l<sub>2</sub> norm of the approximate vector and l2y represents the l<sub>2</sub> norm of the exact vector, and x and y represent the approximate vector and the exact vector, respectively. The l<sub>2</sub> norms of the two vectors are calculated using the loop:
+   **Usage/Example:** The routine defines two double variables, linfx and linfy, as well as an int variable, n, and two vectors with double elements, x and y. n represents the length of the two vectors, linfx represents the l<sub>∞</sub> norm of the approximate vector and linfy represents the l<sub>∞</sub> norm of the exact vector, and x and y represent the approximate vector and the exact vector, respectively. The l<sub>∞</sub> norms of the two vectors are calculated using the loop:
    
         for(vector<double>::size_type i = 0; i < n; i++){
-            l2x = l2x + (x[i])*(x[i]);
-            l2y = l2y + (y[i])*(y[i]);
+            if(x[i] > linfx){
+                linfx = x[i];
+            }
+
+            else{
+                linfx = linfx;
+            }
+
+            if(y[i] > linfy){
+                linfy = y[i];
+            }
+
+            else{
+                linfy = linfy;
+            }
         }
-    
-        l2x = sqrt(l2x);
-        l2y = sqrt(l2y);
 
    **Implementation/Code:** The following is the code for nmvecerrl2.cpp:
 
@@ -28,8 +38,8 @@
         using namespace std;
 
         int n;
-        double l2x = 0;
-        double l2y = 0;
+        double linfx = 0;
+        double linfy = 0;
 
         int main(){
             cout << "Enter vector length: ";
@@ -49,15 +59,25 @@
             }
 
             for(vector<double>::size_type i = 0; i < n; i++){
-                l2x = l2x + (x[i])*(x[i]);
-                l2y = l2y + (y[i])*(y[i]);
+                if(x[i] > linfx){
+                    linfx = x[i];
+                }
+
+                else{
+                    linfx = linfx;
+                }
+
+                if(y[i] > linfy){
+                    linfy = y[i];
+                }
+
+                else{
+                    linfy = linfy;
+                }
             }
 
-            l2x = sqrt(l2x);
-            l2y = sqrt(l2y);
-
-            cout << "l2-norm error (absolute) = " << fabs(l2x - l2y) << "." << endl;
-            cout << "l2-norm error (relative) = " << (fabs(l2x - l2y))/l2x << "." << endl;
+            cout << "l∞-norm error (absolute) = " << fabs(linfx - linfy) << "." << endl;
+            cout << "l∞-norm error (relative) = " << (fabs(linfx - linfy))/linfx << "." << endl;
 
             return 0;
         }
