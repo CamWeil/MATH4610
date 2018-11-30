@@ -1,64 +1,62 @@
-14d. **Routine Name:**           nmvecopsdot
+14e. **Routine Name:**           nmvecopscross
 
    **Author:** Cam Weil
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the inner product of two vectors of equal length (v1 • v2).
+   **Description/Purpose:** This routine will compute and return the cross product of two vectors with length three (v1 x v2).
    
-   **Input:** There are inputs needed for the length of the two vectors and the elements of the two vectors. These inputs are all prompted for at the beginning of the routine.
+   **Input:** There are inputs needed for the elements of the two vectors, which are prompted for at the beginning of the routine.
 
-   **Output:** This routine simply calculates the inner product of two vectors, which is then given as the output. For example:
-   
-        Enter vector length: 3
+   **Output:** This routine simply calculates the cross product of two vectors, which is then given as the output. For example:
+ 
         Enter coordinate #1 for vector v1: 1
         Enter coordinate #2 for vector v1: 2
         Enter coordinate #3 for vector v1: 3
         Enter coordinate #1 for vector v2: 4
         Enter coordinate #2 for vector v2: 5
         Enter coordinate #3 for vector v2: 6
-        v1 • v2 = 32.
+        v1 x v2 = < -3  -6  -3 >.
 
-   **Usage/Example:** The routine defines one int variable, n, and a double variable v3d, as well as two vectors with double elements, v1 and v2. n represents the length of the two vectors, v3d represents the inner product of the two vectors, and v1 and v2 represent the vectors themselves. The value of v3d is calculated using the loop:
+   **Usage/Example:** The routine defines three vectors with double elements, v1, v2, and v3e, where v3e represents the cross product of the two vectors, and v1 and v2 represent the vectors themselves. The values of v3e are calculated manually as:
    
-        for(vector<double>::size_type i = 0; i < n; i++){
-            v3d = v3d + v1[i]*v2[i];
-        }
+        v3e[0] = v1[1]*v2[2] - v1[2]*v2[1];
+        v3e[1] = v1[0]*v2[2] - v1[2]*v2[0];
+        v3e[2] = v1[0]*v2[1] - v1[1]*v2[0];
 
-   **Implementation/Code:** The following is the code for nmvecopsdot.cpp:
+   **Implementation/Code:** The following is the code for nmvecopscross.cpp:
 
         #include<iostream>
         #include<math.h>
         #include<vector>
         using namespace std;
 
-        int n;
-
         int main(){
-            cout << "Enter vector length: ";
-            cin >> n;
+            vector<double> v1(3);
+            vector<double> v2(3);
+            vector<double> v3e(3);
 
-            vector<double> v1(n);
-            vector<double> v2(n);
-            double v3d = 0;
-
-            for(vector<double>::size_type i = 0; i < n; i++){
+            for(vector<double>::size_type i = 0; i < 3; i++){
                 cout << "Enter coordinate #" << i + 1 << " for vector v1: ";
                 cin >> v1[i];
             }
 
-            for(vector<double>::size_type i = 0; i < n; i++){
+            for(vector<double>::size_type i = 0; i < 3; i++){
                 cout << "Enter coordinate #" << i + 1 << " for vector v2: ";
                 cin >> v2[i];
             }
+            
+            cout << "v1 x v2 = <";
 
-            cout << "v1 • v2 = ";
+            v3e[0] = v1[1]*v2[2] - v1[2]*v2[1];
+            v3e[1] = v1[0]*v2[2] - v1[2]*v2[0];
+            v3e[2] = v1[0]*v2[1] - v1[1]*v2[0];
 
             for(vector<double>::size_type i = 0; i < n; i++){
-                v3d = v3d + v1[i]*v2[i];
+                cout << " " << v3e[i] << " ";
             }
 
-            cout << v3d << "." << endl;
+            cout << ">." << endl;
 
             return 0;
         }
