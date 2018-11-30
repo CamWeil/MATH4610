@@ -25,9 +25,9 @@ Homework 3
 
 4a. [Matrix Norm Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15amatnorml1.md)
 
-4b. [Matrix Norm Software Manual Entry (Frobenius)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15bvecnormfrob.md)
+4b. [Matrix Norm Software Manual Entry (Frobenius)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15bmatnormfrob.md)
 
-4c. [Matrix Norm Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15cvmatnormlinf.md)
+4c. [Matrix Norm Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15cmatnormlinf.md)
 
 5a.
 
