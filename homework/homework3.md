@@ -23,11 +23,11 @@ Homework 3
 
 3e. [Vector Operation Software Manual Entry (Cross Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14evecopscross.md)
 
-4a.
+4a. [Matrix Norm Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15amatnorml1.md)
 
-4b.
+4b. [Matrix Norm Software Manual Entry (Frobenius)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15bvecnormfrob.md)
 
-4c.
+4c. [Matrix Norm Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15cvmatnormlinf.md)
 
 5a.
 
