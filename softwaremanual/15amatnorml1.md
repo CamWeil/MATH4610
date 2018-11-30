@@ -6,7 +6,7 @@
 
    **Description/Purpose:** This routine will compute and return the l<sub>1</sub> norm of a given matrix of arbitrary size.
    
-   **Input:** There are inputs needed for the size of the matrix, and the elements of the matrix. These inputs are both prompted for at the beginning of the routine.
+   **Input:** There are inputs needed for the size of the matrix and the elements of the matrix. These inputs are both prompted for at the beginning of the routine.
 
    **Output:** This routine simply calculates the maximum sum of the magnitude of the columns of the matrix, which is then given as the output. For example:
  
