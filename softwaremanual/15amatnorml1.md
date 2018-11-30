@@ -1,62 +1,90 @@
-14e. **Routine Name:**           nmvecopscross
+15a. **Routine Name:**           nmmatnorml1
 
    **Author:** Cam Weil
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the cross product of two vectors with length three (v1 x v2).
+   **Description/Purpose:** This routine will compute and return the l<sub>1</sub> norm (length) of a given matrix of arbitrary size.
    
-   **Input:** There are inputs needed for the elements of the two vectors, which are prompted for at the beginning of the routine.
+   **Input:** There are inputs needed for the size of the matrix, and the elements of the matrix. These inputs are both prompted for at the beginning of the routine.
 
-   **Output:** This routine simply calculates the cross product of two vectors, which is then given as the output. For example:
+   **Output:** This routine simply calculates the maximum sum of the magnitude of the columns of the matrix, which is then given as the output. For example:
  
-        Enter coordinate #1 for vector v1: 1
-        Enter coordinate #2 for vector v1: 2
-        Enter coordinate #3 for vector v1: 3
-        Enter coordinate #1 for vector v2: 4
-        Enter coordinate #2 for vector v2: 5
-        Enter coordinate #3 for vector v2: 6
-        v1 x v2 = < -3  -6  -3 >.
+        Enter matrix size (number of rows): 3
+        Enter matrix size (number of columns): 3
+        Enter matrix element a11: 1
+        Enter matrix element a12: 2
+        Enter matrix element a13: 3
+        Enter matrix element a21: 4
+        Enter matrix element a22: 5
+        Enter matrix element a23: 6
+        Enter matrix element a31: 7
+        Enter matrix element a32: 8
+        Enter matrix element a33: 9
+        l1-norm = 18.
 
-   **Usage/Example:** The routine defines three vectors with double elements, v1, v2, and v3e, where v3e represents the cross product of the two vectors, and v1 and v2 represent the vectors themselves. The values of v3e are calculated manually as:
+   **Usage/Example:** The routine defines one double variable, l1n, as well as two int variables, m and n, a matrix with double elements, a, and a vector with double elements, l1. m and n represent the rows and columns of the matrix, respectively, l1n represents the l1 norm of the matrix, and a represents the matrix itself. The vector l1 is used to collect the sum of the magnitude of the values of each matrix column, so that the norm can be calculated using the loops:
    
-        v3e[0] = v1[1]*v2[2] - v1[2]*v2[1];
-        v3e[1] = v1[0]*v2[2] - v1[2]*v2[0];
-        v3e[2] = v1[0]*v2[1] - v1[1]*v2[0];
+        for(int i = 0; i < m; i ++){
+            for(int j = 0; j < n; j++){
+                l1[j] = l1[j] + fabs(a[i][j]);
+            }
+        }
 
-   **Implementation/Code:** The following is the code for nmvecopscross.cpp:
+        for(vector<double>::size_type k = 0; k < n; k++){
+            if(l1[k] > l1n){
+                l1n = l1[k];
+            }
+
+            else{
+                l1n = l1n;
+            }
+        }
+
+   **Implementation/Code:** The following is the code for nmmatnorml1.cpp:
 
         #include<iostream>
         #include<math.h>
         #include<vector>
         using namespace std;
 
+        int m, n;
+        double l1n = 0;
+
         int main(){
-            vector<double> v1(3);
-            vector<double> v2(3);
-            vector<double> v3e(3);
+            cout << "Enter matrix size (number of rows): ";
+            cin >> m;
 
-            for(vector<double>::size_type i = 0; i < 3; i++){
-                cout << "Enter coordinate #" << i + 1 << " for vector v1: ";
-                cin >> v1[i];
+            cout << "Enter matrix size (number of columns): ";
+            cin >> n;
+
+            double a[m][n];
+            vector<double> l1(n);
+
+            for(int i = 0; i < m; i++){
+                for(int j = 0; j < n; j++){
+                    cout << "Enter matrix element a" << i + 1 << j + 1 << ": ";
+                    cin >> a[i][j];
+                }
             }
 
-            for(vector<double>::size_type i = 0; i < 3; i++){
-                cout << "Enter coordinate #" << i + 1 << " for vector v2: ";
-                cin >> v2[i];
-            }
-            
-            cout << "v1 x v2 = <";
-
-            v3e[0] = v1[1]*v2[2] - v1[2]*v2[1];
-            v3e[1] = v1[0]*v2[2] - v1[2]*v2[0];
-            v3e[2] = v1[0]*v2[1] - v1[1]*v2[0];
-
-            for(vector<double>::size_type i = 0; i < n; i++){
-                cout << " " << v3e[i] << " ";
+            for(int i = 0; i < m; i ++){
+                for(int j = 0; j < n; j++){
+                    l1[j] = l1[j] + fabs(a[i][j]);
+                }
             }
 
-            cout << ">." << endl;
+            for(vector<double>::size_type k = 0; k < n; k++){
+                if(l1[k] > l1n){
+                    l1n = l1[k];
+                }
+
+                else{
+                    l1n = l1n;
+                }
+            }
+
+            cout << "l1-norm = " << l1n << "." << endl;
 
             return 0;
         }
