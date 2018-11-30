@@ -1,29 +1,31 @@
-14c. **Routine Name:**           nmvecopsmult
+14d. **Routine Name:**           nmvecopsdot
 
    **Author:** Cam Weil
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the product of a scalar and a vector (c * v1).
+   **Description/Purpose:** This routine will compute and return the inner product of two vectors of equal length (v1 • v2).
    
-   **Input:** There are inputs needed for the length of the vector, the elements of the vector, and the value of the scalar. These inputs are all prompted for at the beginning of the routine.
+   **Input:** There are inputs needed for the length of the two vectors and the elements of the two vectors. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine simply calculates the product of a scalar and a vector by multiplying each respective element of the vector by the scalar, which is then given as the output. For example:
+   **Output:** This routine simply calculates the inner product of two vectors, which is then given as the output. For example:
    
         Enter vector length: 3
-        Enter scalar c: 3
         Enter coordinate #1 for vector v1: 1
         Enter coordinate #2 for vector v1: 2
         Enter coordinate #3 for vector v1: 3
-        c * v1 = < 3  6  9 >.
+        Enter coordinate #1 for vector v2: 4
+        Enter coordinate #2 for vector v2: 5
+        Enter coordinate #3 for vector v2: 6
+        v1 • v2 = 32.
 
-   **Usage/Example:** The routine defines one int variable, n, and a double variable, c, as well as two vectors with double elements, v1, and v3c. n represents the length of the two vectors, c represents the scalar, v3c represents the product between the scalar and the vector, and v1 represents the vector itselves. The value of v3c is calculated using the loop:
+   **Usage/Example:** The routine defines one int variable, n, and a double variable v3d, as well as two vectors with double elements, v1 and v2. n represents the length of the two vectors, v3d represents the inner product of the two vectors, and v1 and v2 represent the vectors themselves. The value of v3d is calculated using the loop:
    
         for(vector<double>::size_type i = 0; i < n; i++){
-            v3c[i] = c*v1[i];
+            v3d = v3d + v1[i]*v2[i];
         }
 
-   **Implementation/Code:** The following is the code for nmvecopssub.cpp:
+   **Implementation/Code:** The following is the code for nmvecopsdot.cpp:
 
         #include<iostream>
         #include<math.h>
@@ -31,17 +33,15 @@
         using namespace std;
 
         int n;
-        double c;
 
         int main(){
             cout << "Enter vector length: ";
             cin >> n;
 
-            cout << "Enter scalar c: ";
-            cin >> c;
-
             vector<double> v1(n);
-            vector<double> v3c(n);
+            vector<double> v2(n);
+            double v3d = 0;
+            vector<double> v3e(n);
 
             for(vector<double>::size_type i = 0; i < n; i++){
                 cout << "Enter coordinate #" << i + 1 << " for vector v1: ";
@@ -53,14 +53,13 @@
                 cin >> v2[i];
             }
 
-            cout << "c * v1 = <";
+            cout << "v1 • v2 = ";
 
             for(vector<double>::size_type i = 0; i < n; i++){
-                v3c[i] = c*v1[i];
-                cout << " " << v3c[i] << " ";
+                v3d = v3d + v1[i]*v2[i];
             }
 
-            cout << ">." << endl;
+            cout << v3d << "." << endl;
 
             return 0;
         }
