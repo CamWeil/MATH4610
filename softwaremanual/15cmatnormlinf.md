@@ -1,4 +1,4 @@
-15c. **Routine Name:**           nmmatnorminf
+15c. **Routine Name:**           nmmatnormlinf
 
    **Author:** Cam Weil
 
@@ -41,7 +41,7 @@
                 }
             }
 
-   **Implementation/Code:** The following is the code for nmmatnorminf.cpp:
+   **Implementation/Code:** The following is the code for nmmatnormlinf.cpp:
 
         #include<iostream>
         #include<math.h>
