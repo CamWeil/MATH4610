@@ -17,13 +17,13 @@
         Enter coordinate #3 for vector v1: 3
         c * v1 = < 3  6  9 >.
 
-   **Usage/Example:** The routine defines one int variable, n, and a double variable, c, as well as two vectors with double elements, v1, and v3c. n represents the length of the two vectors, c represents the scalar, v3c represents the product between the scalar and the vector, and v1 represents the vector itselves. The value of v3c is calculated using the loop:
+   **Usage/Example:** The routine defines one int variable, n, and a double variable, c, as well as two vectors with double elements, v1, and v3c. n represents the length of the two vectors, c represents the scalar, v3c represents the product between the scalar and the vector, and v1 represents the vector itself. The value of v3c is calculated using the loop:
    
         for(vector<double>::size_type i = 0; i < n; i++){
             v3c[i] = c*v1[i];
         }
 
-   **Implementation/Code:** The following is the code for nmvecopssub.cpp:
+   **Implementation/Code:** The following is the code for nmvecopsmult.cpp:
 
         #include<iostream>
         #include<math.h>
