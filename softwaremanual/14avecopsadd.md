@@ -23,7 +23,6 @@
    
         for(vector<double>::size_type i = 0; i < n; i++){
             v3a[i] = v1[i] + v2[i];
-            cout << " " << v3a[i] << " ";
         }
 
    **Implementation/Code:** The following is the code for nmvecopsadd.cpp:
@@ -38,9 +37,6 @@
         int main(){
             cout << "Enter vector length: ";
             cin >> n;
-
-            cout << "Enter scalar c: ";
-            cin >> c;
 
             vector<double> v1(n);
             vector<double> v2(n);
