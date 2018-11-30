@@ -13,15 +13,15 @@ Homework 3
 
 2c. [Absolute and Relative Vector Errors Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13cvecerrlinf.md)
 
-3a.
+3a. [Vector Operation Software Manual Entry (Vector Addition)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14avecopsadd.md)
 
-3b.
+3b. [Vector Operation Software Manual Entry (Vector Subtraction)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14bvecopssub.md)
 
-3c.
+3c. [Vector Operation Software Manual Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14cvecopsmult.md)
 
-3d.
+3d. [Vector Operation Software Manual Entry (Inner Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14dvecopsdot.md)
 
-3e.
+3e. [Vector Operation Software Manual Entry (Cross Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14evecopscross.md)
 
 4a.
 
