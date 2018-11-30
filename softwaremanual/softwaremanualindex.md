@@ -54,5 +54,23 @@ Software Manual Index
 
 15c. [Matrix Norm Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15cmatnormlinf.md)
 
+16a.
+
+16b.
+
+16c.
+
+16d.
+
+16e.
+
+16f.
+
+16g.
+
+17a.
+
+17b. 
+
 18. [Orthogonal/Orthonormal Basis Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/18orthbasis.md)
 
