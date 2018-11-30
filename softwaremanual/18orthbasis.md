@@ -1,90 +1,152 @@
-15c. **Routine Name:**           nmmatnormlinf
+18. **Routine Name:**           nmmorthbasis
 
    **Author:** Cam Weil
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the l<sub>∞</sub> norm of a given matrix of arbitrary size.
+   **Description/Purpose:** This routine will compute and return an orthonormal basis from a general basis in two dimensions.
    
-   **Input:** There are inputs needed for the size of the matrix and the elements of the matrix. These inputs are both prompted for at the beginning of the routine.
+   **Input:** There are inputs needed for the elements of the two vectors, which are prompted for at the beginning of the routine.
 
-   **Output:** This routine simply calculates the maximum sum of the magnitude of the rows of the matrix, which is then given as the output. For example:
+   **Output:** This routine simply performs the Gram-Schmidt procedure on the two inputted vectors to determine an orthogonal and an orthonormal set vectors, which are then given as the output. For example:
  
-        Enter matrix size (number of rows): 3
-        Enter matrix size (number of columns): 3
-        Enter matrix element a11: 1
-        Enter matrix element a12: 2
-        Enter matrix element a13: 3
-        Enter matrix element a21: 4
-        Enter matrix element a22: 5
-        Enter matrix element a23: 6
-        Enter matrix element a31: 7
-        Enter matrix element a32: 8
-        Enter matrix element a33: 9
-        l∞-norm = 24.
+        Enter coordinate #1 for general vector v1: 1
+        Enter coordinate #2 for general vector v1: 2
+        Enter coordinate #1 for general vector v2: 3
+        Enter coordinate #2 for general vector v2: 4
+        Orthogonal vector u1 = < 1 2 >.
+        Orthogonal vector u2 = < 0.8 -0.4 >.
+        Orthonormal vector e1 = < 0.447214 0.894427 >.
+        Orthonormal vector e2 = < 0.894427 -0.447214 >.
 
-   **Usage/Example:** The routine defines one double variable, linfn, as well as two int variables, m and n, a matrix with double elements, a, and a vector with double elements, linf. m and n represent the rows and columns of the matrix, respectively, linfn represents the l<sub>∞</sub> norm of the matrix, and a represents the matrix itself. The vector linf is used to collect the sum of the magnitude of the values of each matrix row, so that the norm can be calculated using the loops:
+   **Usage/Example:** The routine defines three double variables, dotuv, dotuu1, and dotuu2, as well as seven vectors with double elements, v1, v2, u1, u2, e1, e2, and projuv. dotuv, dotuu1, and dotuu2 represent the inner products of u1 and v2, u1 and u1, and u2 and u2, respectively. v1 and v2 represent the inputted general basis, whereas u1 and u2 represent the calculated orthogonal vectors and e1 and e2 represent the calculated orthonormal vectors, which are calculated using the loops:
    
-        for(int j = 0; j < n; j ++){
-                for(int i = 0; i < m; i++){
-                    linf[i] = linf[i] + fabs(a[i][j]);
-                }
+        u1 = v1; 
+    
+        for(vector<double>::size_type i = 0; i < 2; i++){
+            dotuv = dotuv + u1[i]*v2[i];
+            dotuu1 = dotuu1 + u1[i]*u1[i];
+        }
+
+        for(vector<double>::size_type i = 0; i < 2; i++){
+            e1[i] = (u1[i])/(sqrt(dotuu1));
+        }
+
+        for(vector<double>::size_type i = 0; i < 2; i++){
+            projuv[i] = ((dotuv)/(dotuu1))*u1[i];
+
+        }
+
+        for(vector<double>::size_type i = 0; i < 2; i++){
+            u2[i] = v2[i] - projuv[i];
+
+            if(u2[i] == 0){
+                cout << "Error: Vectors v1 and v2 are linearly dependent." << endl;
+                return 0;
             }
+        }
 
-            for(vector<double>::size_type k = 0; k < m; k++){
-                if(linf[k] > linfn){
-                    linfn = linf[k];
-                }
+        for(vector<double>::size_type i = 0; i < 2; i++){
+            dotuu2 = dotuu2 + u2[i]*u2[i];
+        }
 
-                else{
-                    linfn = linfn;
-                }
-            }
+        for(vector<double>::size_type i = 0; i < 2; i++){
+            e2[i] = (u2[i])/(sqrt(dotuu2));
+        }
 
-   **Implementation/Code:** The following is the code for nmmatnormlinf.cpp:
+   **Implementation/Code:** The following is the code for nmorthbasis.cpp:
 
         #include<iostream>
         #include<math.h>
         #include<vector>
         using namespace std;
 
-        int m, n;
-        double linfn = 0;
+        vector<double> v1(2);
+        vector<double> v2(2);
+        vector<double> u1(2);
+        vector<double> u2(2);
+        vector<double> e1(2);
+        vector<double> e2(2);
+        double dotuv;
+        double dotuu1;
+        double dotuu2;
+        vector<double> projuv(2);
 
         int main(){
-            cout << "Enter matrix size (number of rows): ";
-            cin >> m;
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                cout << "Enter coordinate #" << i + 1 << " for general vector v1: ";
+                cin >> v1[i];
+            }
 
-            cout << "Enter matrix size (number of columns): ";
-            cin >> n;
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                cout << "Enter coordinate #" << i + 1 << " for general vector v2: ";
+                cin >> v2[i];
+            }
 
-            double a[m][n];
-            vector<double> linf(m);
+            u1 = v1;
 
-            for(int i = 0; i < m; i++){
-                for(int j = 0; j < n; j++){
-                    cout << "Enter matrix element a" << i + 1 << j + 1 << ": ";
-                    cin >> a[i][j];
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                dotuv = dotuv + u1[i]*v2[i];
+                dotuu1 = dotuu1 + u1[i]*u1[i];
+            }
+
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                e1[i] = (u1[i])/(sqrt(dotuu1));
+            }
+
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                projuv[i] = ((dotuv)/(dotuu1))*u1[i];
+
+            }
+
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                u2[i] = v2[i] - projuv[i];
+
+                if(u2[i] == 0){
+                    cout << "Error: Vectors v1 and v2 are linearly dependent." << endl;
+                    return 0;
                 }
             }
 
-            for(int j = 0; j < n; j ++){
-                for(int i = 0; i < m; i++){
-                    linf[i] = linf[i] + fabs(a[i][j]);
-                }
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                dotuu2 = dotuu2 + u2[i]*u2[i];
             }
 
-            for(vector<double>::size_type k = 0; k < m; k++){
-                if(linf[k] > linfn){
-                    linfn = linf[k];
-                }
-
-                else{
-                    linfn = linfn;
-                }
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                e2[i] = (u2[i])/(sqrt(dotuu2));
             }
 
-            cout << "l∞-norm = " << linfn << "." << endl;
+            cout << "Orthogonal vector u1 = < ";
+
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                cout << u1[i] << " ";
+            }
+
+            cout << ">." << endl;
+
+            cout << "Orthogonal vector u2 = < ";
+
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                cout << u2[i] << " ";
+            }
+
+            cout << ">." << endl;
+
+            cout << "Orthonormal vector e1 = < ";
+
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                cout << e1[i] << " ";
+            }
+
+            cout << ">." << endl;
+
+            cout << "Orthonormal vector e2 = < ";
+
+            for(vector<double>::size_type i = 0; i < 2; i++){
+                cout << e2[i] << " ";
+            }
+
+            cout << ">." << endl;
 
             return 0;
         }
