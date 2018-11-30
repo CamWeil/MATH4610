@@ -6,7 +6,7 @@
 
    **Description/Purpose:** This routine will compute and return the inner product of two vectors of equal length (v1 • v2).
    
-   **Input:** There are inputs needed for the length of the two vectors and the elements of the two vectors. These inputs are all prompted for at the beginning of the routine.
+   **Input:** There are inputs needed for the length of the two vectors and the elements of the two vectors. These inputs are both prompted for at the beginning of the routine.
 
    **Output:** This routine simply calculates the inner product of two vectors, which is then given as the output. For example:
    
