@@ -48,11 +48,6 @@
                 cin >> v1[i];
             }
 
-            for(vector<double>::size_type i = 0; i < n; i++){
-                cout << "Enter coordinate #" << i + 1 << " for vector v2: ";
-                cin >> v2[i];
-            }
-
             cout << "c * v1 = <";
 
             for(vector<double>::size_type i = 0; i < n; i++){
