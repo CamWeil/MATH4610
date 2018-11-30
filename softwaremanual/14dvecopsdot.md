@@ -41,7 +41,6 @@
             vector<double> v1(n);
             vector<double> v2(n);
             double v3d = 0;
-            vector<double> v3e(n);
 
             for(vector<double>::size_type i = 0; i < n; i++){
                 cout << "Enter coordinate #" << i + 1 << " for vector v1: ";
