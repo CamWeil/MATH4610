@@ -1,14 +1,14 @@
-15b. **Routine Name:**           nmmatnormfrob
+15c. **Routine Name:**           nmmatnorminf
 
    **Author:** Cam Weil
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the Frobenius norm of a given matrix of arbitrary size.
+   **Description/Purpose:** This routine will compute and return the l<sub>∞</sub> norm of a given matrix of arbitrary size.
    
    **Input:** There are inputs needed for the size of the matrix and the elements of the matrix. These inputs are both prompted for at the beginning of the routine.
 
-   **Output:** This routine simply calculates the square root of the sum of the of the squares of each element of the matrix, which is then given as the output. For example:
+   **Output:** This routine simply calculates the maximum sum of the magnitude of the rows of the matrix, which is then given as the output. For example:
  
         Enter matrix size (number of rows): 3
         Enter matrix size (number of columns): 3
@@ -21,19 +21,27 @@
         Enter matrix element a31: 7
         Enter matrix element a32: 8
         Enter matrix element a33: 9
-        Frobenius norm = 16.8819.
+        l∞-norm = 24.
 
-   **Usage/Example:** The routine defines one double variable, frobn, as well as two int variables, m and n, and a matrix with double elements, a. m and n represent the rows and columns of the matrix, respectively, frobn represents the Frobenius norm of the matrix, and a represents the matrix itself. The Frobenius norm is calculated using the loop:
+   **Usage/Example:** The routine defines one double variable, linfn, as well as two int variables, m and n, a matrix with double elements, a, and a vector with double elements, linf. m and n represent the rows and columns of the matrix, respectively, linfn represents the l<sub>∞</sub> norm of the matrix, and a represents the matrix itself. The vector linf is used to collect the sum of the magnitude of the values of each matrix row, so that the norm can be calculated using the loops:
    
-        for(int i = 0; i < m; i ++){
-            for(int j = 0; j < n; j++){
-                frobn = frobn + fabs(a[i][j])*fabs(a[i][j]);
+        for(int j = 0; j < n; j ++){
+                for(int i = 0; i < m; i++){
+                    linf[i] = linf[i] + fabs(a[i][j]);
+                }
             }
-        }
 
-        frobn = sqrt(frobn);
+            for(vector<double>::size_type k = 0; k < m; k++){
+                if(linf[k] > linfn){
+                    linfn = linf[k];
+                }
 
-   **Implementation/Code:** The following is the code for nmmatnormfrob.cpp:
+                else{
+                    linfn = linfn;
+                }
+            }
+
+   **Implementation/Code:** The following is the code for nmmatnorminf.cpp:
 
         #include<iostream>
         #include<math.h>
@@ -41,7 +49,7 @@
         using namespace std;
 
         int m, n;
-        double frobn = 0;
+        double linfn = 0;
 
         int main(){
             cout << "Enter matrix size (number of rows): ";
@@ -51,6 +59,7 @@
             cin >> n;
 
             double a[m][n];
+            vector<double> linf(m);
 
             for(int i = 0; i < m; i++){
                 for(int j = 0; j < n; j++){
@@ -59,15 +68,23 @@
                 }
             }
 
-            for(int i = 0; i < m; i ++){
-                for(int j = 0; j < n; j++){
-                    frobn = frobn + fabs(a[i][j])*fabs(a[i][j]);
+            for(int j = 0; j < n; j ++){
+                for(int i = 0; i < m; i++){
+                    linf[i] = linf[i] + fabs(a[i][j]);
                 }
             }
 
-            frobn = sqrt(frobn);
+            for(vector<double>::size_type k = 0; k < m; k++){
+                if(linf[k] > linfn){
+                    linfn = linf[k];
+                }
 
-            cout << "Frobenius norm = " << frobn << "." << endl;
+                else{
+                    linfn = linfn;
+                }
+            }
+
+            cout << "l∞-norm = " << linfn << "." << endl;
 
             return 0;
         }
