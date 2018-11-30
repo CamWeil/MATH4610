@@ -1,4 +1,4 @@
-16c. **Routine Name:**           nmmatopstranspose
+16c. **Routine Name:**           nmmatopstransp
 
    **Author:** Cam Weil
 
@@ -30,7 +30,7 @@
             }
         }
 
-   **Implementation/Code:** The following is the code for nmmatopstranspose.cpp:
+   **Implementation/Code:** The following is the code for nmmatopstransp.cpp:
 
         #include<iostream>
         #include<math.h>
