@@ -23,7 +23,7 @@
         Enter matrix element a33: 9
         l1-norm = 18.
 
-   **Usage/Example:** The routine defines one double variable, l1n, as well as two int variables, m and n, a matrix with double elements, a, and a vector with double elements, l1. m and n represent the rows and columns of the matrix, respectively, l1n represents the l1 norm of the matrix, and a represents the matrix itself. The vector l1 is used to collect the sum of the magnitude of the values of each matrix column, so that the norm can be calculated using the loops:
+   **Usage/Example:** The routine defines one double variable, l1n, as well as two int variables, m and n, a matrix with double elements, a, and a vector with double elements, l1. m and n represent the rows and columns of the matrix, respectively, l1n represents the l<sub>1</sub> norm of the matrix, and a represents the matrix itself. The vector l1 is used to collect the sum of the magnitude of the values of each matrix column, so that the norm can be calculated using the loops:
    
         for(int i = 0; i < m; i ++){
             for(int j = 0; j < n; j++){
