@@ -4,7 +4,7 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the product of a scalar and amatrix (c * A).
+   **Description/Purpose:** This routine will compute and return the product of a scalar and a matrix (c * A).
    
    **Input:** There are inputs needed for the size of the matrix, the elements of the matrix, and the value of the scalar. These inputs are all prompted for at the beginning of the routine.
 
