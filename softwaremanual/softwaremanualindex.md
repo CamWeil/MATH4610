@@ -50,7 +50,7 @@ Software Manual Index
 
 15a. [Matrix Norm Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15amatnorml1.md)
 
-15b. [Matrix Norm Entry (Frobenius)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15bvecnormfrob.md)
+15b. [Matrix Norm Entry (Frobenius)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15bmatnormfrob.md)
 
-15c. [Matrix Norm Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15cvmatnormlinf.md)
+15c. [Matrix Norm Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15cmatnormlinf.md)
 
