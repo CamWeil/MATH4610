@@ -1,4 +1,4 @@
-14c. **Routine Name:**           nmvecopsmult
+14c. **Routine Name:**           nmvecopsmultsc
 
    **Author:** Cam Weil
 
@@ -23,7 +23,7 @@
             v3c[i] = c*v1[i];
         }
 
-   **Implementation/Code:** The following is the code for nmvecopsmult.cpp:
+   **Implementation/Code:** The following is the code for nmvecopsmultsc.cpp:
 
         #include<iostream>
         #include<math.h>
