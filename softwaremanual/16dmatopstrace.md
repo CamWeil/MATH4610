@@ -18,7 +18,7 @@
         Enter matrix element a22: 4
         Tr(A) = 5
 
-   **Usage/Example:** The routine defines two int variables, m and n, and a double variable, cd, as well as a matrices with double elements, a. m and n represent the rows and columns of the matrix, respectively, cd represents the trace of the matrix, and a represents the matrix itself. The value of cd is calculated using the loop:
+   **Usage/Example:** The routine defines two int variables, m and n, and a double variable, cd, as well as a matrix with double elements, a. m and n represent the rows and columns of the matrix, respectively, cd represents the trace of the matrix, and a represents the matrix itself. The value of cd is calculated using the loop:
    
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
