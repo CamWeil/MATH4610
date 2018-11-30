@@ -38,3 +38,13 @@ Software Manual Index
 
 13c. [Aboslute and Relative Vector Error Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13cvecerrlinf.md)
 
+14a. [Vector Operation Entry (Vector Addition)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14avecopsadd.md)
+
+14b. [Vector Operation Entry (Vector Subtraction)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14bvecopssub.md)
+
+14c. [Vector Operation Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14cvecopsmult.md)
+
+14d. [Vector Operation Entry (Inner Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14dvecopsdot.md)
+
+14e. [Vector Operation Entry (Cross Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14evecopscross.md)
+
