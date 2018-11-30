@@ -42,7 +42,7 @@ Software Manual Index
 
 14b. [Vector Operation Entry (Vector Subtraction)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14bvecopssub.md)
 
-14c. [Vector Operation Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14cvecopsmult.md)
+14c. [Vector Operation Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14cvecopsmultsc.md)
 
 14d. [Vector Operation Entry (Inner Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14dvecopsdot.md)
 
