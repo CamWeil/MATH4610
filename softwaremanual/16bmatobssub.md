@@ -34,7 +34,7 @@
             }
         }
 
-   **Implementation/Code:** The following is the code for nmmatopsadd.cpp:
+   **Implementation/Code:** The following is the code for nmmatopssub.cpp:
 
         #include<iostream>
         #include<math.h>
