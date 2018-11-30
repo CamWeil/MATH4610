@@ -17,7 +17,7 @@ Homework 3
 
 3b. [Vector Operation Software Manual Entry (Vector Subtraction)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14bvecopssub.md)
 
-3c. [Vector Operation Software Manual Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14cvecopsmult.md)
+3c. [Vector Operation Software Manual Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14cvecopsmultsc.md)
 
 3d. [Vector Operation Software Manual Entry (Inner Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14dvecopsdot.md)
 
