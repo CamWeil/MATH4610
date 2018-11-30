@@ -4,7 +4,7 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the l<sub>1</sub> norm (length) of a given matrix of arbitrary size.
+   **Description/Purpose:** This routine will compute and return the l<sub>1</sub> norm of a given matrix of arbitrary size.
    
    **Input:** There are inputs needed for the size of the matrix, and the elements of the matrix. These inputs are both prompted for at the beginning of the routine.
 
