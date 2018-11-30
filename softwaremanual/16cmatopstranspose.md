@@ -1,14 +1,14 @@
-16b. **Routine Name:**           nmmatopssub
+16c. **Routine Name:**           nmmatopstranspose
 
    **Author:** Cam Weil
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the difference between two matrices of equal size (A - B).
+   **Description/Purpose:** This routine will compute and return the transpose of a matrix (A<sup>T</sup>).
    
    **Input:** There are inputs needed for the size of the matrix and the elements of the matrix. These inputs are both prompted for at the beginning of the routine.
 
-   **Output:** This routine simply calculates the difference between two matrices by subtracting each respective element of the second matrix from the first matrix, which is then given as the output. For example:
+   **Output:** This routine simply calculates the transpose of a matrix by swapping the elements of its rows and columns, which is then given as the output. For example:
    
         Enter matrix size (number of rows): 2
         Enter matrix size (number of columns): 2
@@ -16,25 +16,21 @@
         Enter matrix element a12: 2
         Enter matrix element a21: 3
         Enter matrix element a22: 4
-        Enter matrix element b11: 5
-        Enter matrix element b12: 6
-        Enter matrix element b21: 7
-        Enter matrix element b22: 8
-        A - B = 
+        A^T = 
         ----------
-         -4  -4 
-         -4  -4 
+         1  3 
+         2  4 
         ----------
 
-   **Usage/Example:** The routine defines two int variables, m and n, as well as three matrices with double elements, a, b, and cb. m and n represent the rows and columns of the two matrices, respectively, cb represents the difference between the two matrices, and a and b represent the matrices themselves. The value of cb is calculated using the loop:
+   **Usage/Example:** The routine defines two int variables, m and n, as well as two matrices with double elements, a and cc. m and n represent the rows and columns of the matrix, respectively, cc represents the transpose of the matrix, and a represents the matrix itself. The value of cc is calculated using the loop:
    
         for(int i = 0; i < m; i++){
-            for(int j = 0; j < n; j++){
-                ca[i][j] = a[i][j] - b[i][j];
+                for(int j = 0; j < n; j++){
+                    cc[i][j] = a[j][i];
             }
         }
 
-   **Implementation/Code:** The following is the code for nmmatopssub.cpp:
+   **Implementation/Code:** The following is the code for nmmatopstranspose.cpp:
 
         #include<iostream>
         #include<math.h>
@@ -52,8 +48,7 @@
             cin >> n;
 
             double a[m][n];
-            double b[m][n];
-            double ca[m][n];
+            double cc[m][n];
 
             for(int i = 0; i < m; i++){
                 for(int j = 0; j < n; j++){
@@ -62,20 +57,13 @@
                 }
             }
 
-            for(int i = 0; i < m; i++){
-                for(int j = 0; j < n; j++){
-                    cout << "Enter matrix element b" << i + 1 << j + 1 << ": ";
-                    cin >> b[i][j];
-                }
-            }
-
-            cout << "A - B = " << endl;
+            cout << "A^T = " << endl;
             cout << "----------" << endl;
 
             for(int i = 0; i < m; i++){
                 for(int j = 0; j < n; j++){
-                    cb[i][j] = a[i][j] - b[i][j];
-                    cout << " " << cb[i][j] << " ";
+                    cc[i][j] = a[j][i];
+                    cout << " " << cc[i][j] << " ";
 
                     if(j == n - 1){
                         cout << endl;
