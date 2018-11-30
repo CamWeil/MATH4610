@@ -51,9 +51,9 @@ Homework 3
 
 7.
 
-8a.
+8a. [Vector Operation Software Manual Entry (Inner Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14dvecopsdot.md)
 
-8b.
+8b. [Vector Operation Software Manual Entry (Cross Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14evecopscross.md)
 
 9.
 
