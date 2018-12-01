@@ -18,7 +18,7 @@
         Enter matrix element a22: 4
         det(A) = -2
 
-   **Usage/Example:** The routine defines two int variables, m and n, and a double variable, ci, as well as an array with double elements, a. m and n represent the rows and columns of the matrix, respectively, ci represents the determinant of the matrix, and a represents the matrix itself. The value of ci is calculated using the statements:
+   **Usage/Example:** The routine defines one int variable, n, and a double variable, ci, as well as an array with double elements, a. n represents the size of the matrix, ci represents the determinant of the matrix, and a represents the matrix itself. The value of ci is calculated using the statements:
    
         if(n <= 3){
             if(n == 1){
@@ -42,20 +42,17 @@
         #include<vector>
         using namespace std;
 
-        int m, n;
+        int n;
 
         int main(){
 
-            cout << "Enter matrix size (number of rows): ";
-            cin >> m;
-
-            cout << "Enter matrix size (number of columns): ";
+            cout << "Enter matrix size: ";
             cin >> n;
 
-            double a[m][n];
+            double a[n][n];
             double ci = 0
 
-            for(int i = 0; i < m; i++){
+            for(int i = 0; i < n; i++){
                 for(int j = 0; j < n; j++){
                     cout << "Enter matrix element a" << i + 1 << j + 1 << ": ";
                     cin >> a[i][j];
@@ -63,27 +60,25 @@
             }
             
             cout << "det(A) = ";
-    
-            if(m == n){
-                if(n <= 3){
-                    if(n == 1){
-                        ci = a[0][0];
-                        cout << ci << endl;
-                    }
+   
+            if(n <= 3){
+                if(n == 1){
+                    ci = a[0][0];
+                    cout << ci << endl;
+                }
 
-                    else if(n == 2){
-                        ci = a[0][0]*a[1][1] - a[0][1]*a[1][0];
-                        cout << ci << endl;
-                    }
+                else if(n == 2){
+                    ci = a[0][0]*a[1][1] - a[0][1]*a[1][0];
+                    cout << ci << endl;
+                }
 
-                    else{
-                        ci = a[0][0]*(a[1][1]*a[2][2] - a[1][2]*a[2][1]) - a[0][1]*(a[1][0]*a[2][2]
-                        - a[1][2]*a[2][0]) + a[0][2]*(a[1][0]*a[2][1] - a[1][1]*a[2][0]);
-                        cout << ci << endl;
-                    }
+                else{
+                    ci = a[0][0]*(a[1][1]*a[2][2] - a[1][2]*a[2][1]) - a[0][1]*(a[1][0]*a[2][2]
+                    - a[1][2]*a[2][0]) + a[0][2]*(a[1][0]*a[2][1] - a[1][1]*a[2][0]);
+                    cout << ci << endl;
                 }
             }
-
+ 
             cout << endl;
 
             return 0;
