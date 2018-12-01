@@ -22,7 +22,7 @@
          2  4 
         ----------
 
-   **Usage/Example:** The routine defines two int variables, m and n, as well as two matrices with double elements, a and cc. m and n represent the rows and columns of the matrix, respectively, cc represents the transpose of the matrix, and a represents the matrix itself. The value of cc is calculated using the loop:
+   **Usage/Example:** The routine defines two int variables, m and n, as well as two arrays with double elements, a and cc. m and n represent the rows and columns of the matrix, respectively, cc represents the transpose of the matrix, and a represents the matrix itself. The value of cc is calculated using the loop:
    
         for(int i = 0; i < m; i++){
                 for(int j = 0; j < n; j++){
