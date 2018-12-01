@@ -8,7 +8,7 @@
    
    **Input:** There are inputs needed for the size of the matrix and the elements of the matrix. These inputs are both prompted for at the beginning of the routine.
 
-   **Output:** This routine simply performs Gaussian elimination on a matrix until it is in row echelon form, which is then given as the output. For example:
+   **Output:** This routine simply performs Gaussian elimination on a square matrix until it is in row echelon form, which is then given as the output. For example:
    
         Enter matrix size: 3
         Enter matrix element a11: 1
