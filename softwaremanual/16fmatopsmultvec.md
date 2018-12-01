@@ -20,7 +20,7 @@
         Enter coordinate #2 for vector x: 2
         A * x = < 5  11 >
 
-   **Usage/Example:** The routine defines two int variables, m and n, and two vectors with double elements, x and cf, as well as a matrix with double elements, a. m and n represent the rows and columns of the matrix, respectively, x represents the vector, cf represents the product of the vector and the matrix, and a represents the matrix itself. The value of cf is calculated using the loop:
+   **Usage/Example:** The routine defines two int variables, m and n, and two vectors with double elements, x and cf, as well as an array with double elements, a. m and n represent the rows and columns of the matrix, respectively, x represents the vector, cf represents the product of the vector and the matrix, and a represents the matrix itself. The value of cf is calculated using the loop:
    
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
