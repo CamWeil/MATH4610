@@ -1,4 +1,4 @@
-3b. **Routine Name:**           nmrelerr
+03b. **Routine Name:**           nmrelerr
 
    **Author:** Cam Weil
 
