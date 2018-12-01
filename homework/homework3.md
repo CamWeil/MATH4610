@@ -29,19 +29,19 @@ Homework 3
 
 4c. [Matrix Norm Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15cmatnormlinf.md)
 
-5a.
+5a. [Matrix Operation Software Manual Entry (Matrix Addition)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16amatopsadd.md)
 
-5b.
+5b. [Matrix Operation Software Manual Entry (Matrix Subtraction)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16bmatopssub.md)
 
-5c.
+5c. [Matrix Operation Software Manual Entry (Matrix Transpose)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16cmatopstransp.md)
 
-5d.
+5d. [Matrix Operation Software Manual Entry (Matrix Trace)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16dmatopstrace.md)
 
-5e.
+5e. [Matrix Operation Software Manual Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16ematopsmultsc.md)
 
-5f.
+5f. [Matrix Operation Software Manual Entry (Vector Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16fmatopsmultvec.md)
 
-5g.
+5g. [Matrix Operation Software Manual Entry (Matrix Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16gmatopsmultmat.md)
 
 6a.
 
