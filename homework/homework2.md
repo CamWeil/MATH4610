@@ -1,7 +1,5 @@
 Homework 2
 
-Note: I have yet to figure out how to allow the user to input a function in each routine, so the equations from the homework were hard-coded in.
-
 1a. [Absolute Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/03aabserr.md)
 
 1b. [Relative Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/03brelerr.md)
