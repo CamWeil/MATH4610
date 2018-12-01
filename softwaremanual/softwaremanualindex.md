@@ -54,19 +54,19 @@ Software Manual Index
 
 15c. [Matrix Norm Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15cmatnormlinf.md)
 
-16a.
+16a. [Matrix Operation Entry (Matrix Addition)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16amatopsadd.md)
 
-16b.
+16b. [Matrix Operation Entry (Matrix Subtraction)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16bmatopssub.md)
 
-16c.
+16c. [Matrix Operation Entry (Matrix Transpose)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16cmatopstransp.md)
 
-16d.
+16d. [Matrix Operation Entry (Matrix Trace)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16dmatopstrace.md)
 
-16e.
+16e. [Matrix Operation Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16ematopsmultsc.md)
 
-16f.
+16f. [Matrix Operation Entry (Vector Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16fmatopsmultvec.md)
 
-16g.
+16g. [Matrix Operation Entry (Matrix Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16gmatopsmultmat.md)
 
 17a.
 
