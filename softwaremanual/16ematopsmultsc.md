@@ -23,7 +23,7 @@
          6  8 
         ----------
 
-   **Usage/Example:** The routine defines two int variables, m and n, and a double variable, c, as well as two matrices with double elements, a and ce. m and n represent the rows and columns of the matrix, respectively, c represents the scalar, ce represents the product of the scalar and the matrix, and a represents the matrix itself. The value of ce is calculated using the loop:
+   **Usage/Example:** The routine defines two int variables, m and n, and a double variable, c, as well as two arrays with double elements, a and ce. m and n represent the rows and columns of the matrix, respectively, c represents the scalar, ce represents the product of the scalar and the matrix, and a represents the matrix itself. The value of ce is calculated using the loop:
    
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
