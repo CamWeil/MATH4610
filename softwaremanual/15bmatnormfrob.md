@@ -23,7 +23,7 @@
         Enter matrix element a33: 9
         Frobenius norm = 16.8819.
 
-   **Usage/Example:** The routine defines one double variable, frobn, as well as two int variables, m and n, and a matrix with double elements, a. m and n represent the rows and columns of the matrix, respectively, frobn represents the Frobenius norm of the matrix, and a represents the matrix itself. The Frobenius norm is calculated using the loop:
+   **Usage/Example:** The routine defines one double variable, frobn, as well as two int variables, m and n, and an array with double elements, a. m and n represent the rows and columns of the matrix, respectively, frobn represents the Frobenius norm of the matrix, and a represents the matrix itself. The Frobenius norm is calculated using the loop:
    
         for(int i = 0; i < m; i ++){
             for(int j = 0; j < n; j++){
