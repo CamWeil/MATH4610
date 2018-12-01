@@ -26,7 +26,7 @@
          43  50 
         ----------
 
-   **Usage/Example:** The routine defines two int variables, m and n, as well as three arrays with double elements, a, b, and cg. m and n represent the rows and columns of the matrix, respectively, cg represents the product of the two matrices, and a and b represent the matrices themselves. The value of cg is calculated using the loop:
+   **Usage/Example:** The routine defines one int variables, n, as well as three arrays with double elements, a, b, and cg. n represents the size of the matrix, cg represents the product of the two matrices, and a and b represent the matrices themselves. The value of cg is calculated using the loop:
    
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
@@ -43,7 +43,7 @@
         #include<vector>
         using namespace std;
 
-        int m, n;
+        int n;
 
         int main(){
 
@@ -53,38 +53,36 @@
             cout << "Enter matrix size (number of columns): ";
             cin >> n;
 
-            double a[m][n];
-            double b[m][n];
+            double a[n][n];
+            double b[n][n];
             double cg[n][n];
 
-            for(int i = 0; i < m; i++){
+            for(int i = 0; i < n; i++){
                 for(int j = 0; j < n; j++){
                     cout << "Enter matrix element a" << i + 1 << j + 1 << ": ";
                     cin >> a[i][j];
                 }
             }
             
-            for(int i = 0; i < m; i++){
+            for(int i = 0; i < n; i++){
                 for(int j = 0; j < n; j++){
                     cout << "Enter matrix element b" << i + 1 << j + 1 << ": ";
                     cin >> b[i][j];
                 }
             }
 
-            if(m == n){
-                cout << "A * B = " << endl;
-                cout << "----------" << endl;
+            cout << "A * B = " << endl;
+            cout << "----------" << endl;
 
-                for(int i = 0; i < n; i++){
-                    for(int j = 0; j < n; j++){
-                        for(int k = 0; k < n; k++){
-                            cg[i][j] = cg[i][j] + a[i][k]*b[k][j];
-                        }
-                        cout << " " << cg[i][j] << " ";
+            for(int i = 0; i < n; i++){
+                for(int j = 0; j < n; j++){
+                    for(int k = 0; k < n; k++){
+                        cg[i][j] = cg[i][j] + a[i][k]*b[k][j];
+                    }
+                    cout << " " << cg[i][j] << " ";
 
-                        if(j == n - 1){
-                            cout << endl;
-                        }
+                    if(j == n - 1){
+                        cout << endl;
                     }
                 }
             }
