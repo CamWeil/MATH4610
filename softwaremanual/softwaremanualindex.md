@@ -68,9 +68,9 @@ Software Manual Index
 
 16g. [Matrix Operation Entry (Matrix Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16gmatopsmultmat.md)
 
-17a.
+16h. [Matrix Operation Entry (Kronecker Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16hmatopskron.md)
 
-17b. 
+16i. [Matrix Operation Entry (Matrix Determinant)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16imatopsdet.md)
 
-18. [Orthogonal/Orthonormal Basis Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/18orthbasis.md)
+17. [Orthogonal/Orthonormal Basis Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/18orthbasis.md)
 
