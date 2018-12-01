@@ -6,7 +6,7 @@
 
    **Description/Purpose:** This routine will compute and return the difference between two matrices of equal size (A - B).
    
-   **Input:** There are inputs needed for the size of the matrix and the elements of the matrix. These inputs are both prompted for at the beginning of the routine.
+   **Input:** There are inputs needed for the size of the matrices and the elements of the matrices. These inputs are both prompted for at the beginning of the routine.
 
    **Output:** This routine simply calculates the difference between two matrices by subtracting each respective element of the second matrix from the first matrix, which is then given as the output. For example:
    
