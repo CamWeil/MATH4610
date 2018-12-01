@@ -26,7 +26,7 @@
          10  12 
         ----------
 
-   **Usage/Example:** The routine defines two int variables, m and n, as well as three matrices with double elements, a, b, and ca. m and n represent the rows and columns of the two matrices, respectively, ca represents the sum of the two matrices, and a and b represent the matrices themselves. The value of ca is calculated using the loop:
+   **Usage/Example:** The routine defines two int variables, m and n, as well as three arrays with double elements, a, b, and ca. m and n represent the rows and columns of the two matrices, respectively, ca represents the sum of the two matrices, and a and b represent the matrices themselves. The value of ca is calculated using the loop:
    
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
