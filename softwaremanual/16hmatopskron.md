@@ -4,7 +4,7 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will compute and return the Kronecker product of two square matrices (A ⊗ B).
+   **Description/Purpose:** This routine will compute and return the Kronecker product of two matrices (A ⊗ B).
    
    **Input:** There are inputs needed for the size of the matrices and the elements of the matrices. These inputs are both prompted for at the beginning of the routine.
 
