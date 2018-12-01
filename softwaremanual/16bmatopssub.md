@@ -26,7 +26,7 @@
          -4  -4 
         ----------
 
-   **Usage/Example:** The routine defines two int variables, m and n, as well as three matrices with double elements, a, b, and cb. m and n represent the rows and columns of the two matrices, respectively, cb represents the difference between the two matrices, and a and b represent the matrices themselves. The value of cb is calculated using the loop:
+   **Usage/Example:** The routine defines two int variables, m and n, as well as three arrays with double elements, a, b, and cb. m and n represent the rows and columns of the two matrices, respectively, cb represents the difference between the two matrices, and a and b represent the matrices themselves. The value of cb is calculated using the loop:
    
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
