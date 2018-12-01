@@ -18,7 +18,7 @@
         Enter matrix element a22: 4
         det(A) = -2
 
-   **Usage/Example:** The routine defines two int variables, m and n, and a double variable, ci, as well as a matrix with double elements, a. m and n represent the rows and columns of the matrix, respectively, ci represents the determinant of the matrix, and a represents the matrix itself. The value of ci is calculated using the statements:
+   **Usage/Example:** The routine defines two int variables, m and n, and a double variable, ci, as well as an array with double elements, a. m and n represent the rows and columns of the matrix, respectively, ci represents the determinant of the matrix, and a represents the matrix itself. The value of ci is calculated using the statements:
    
         if(n <= 3){
             if(n == 1){
