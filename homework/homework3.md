@@ -55,7 +55,7 @@ Homework 3
 
 8b. [Vector Operation Software Manual Entry (Cross Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14evecopscross.md)
 
-9. [Orthogonal/Orthonormal Basis Software Manual Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/18orthbasis.md)
+9. [Orthogonal/Orthonormal Basis Software Manual Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/17orthbasis.md)
 
 10. Problem: Perform an online search using the term Kronecker product. Find sites that describe the product and applications of the Kronecker product. Write up a paragraph or two describing this topic citing at least three web pages and/or web sites.
 
