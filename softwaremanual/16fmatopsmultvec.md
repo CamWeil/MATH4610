@@ -28,7 +28,7 @@
             }
         }
 
-   **Implementation/Code:** The following is the code for nmmatopsmultsc.cpp:
+   **Implementation/Code:** The following is the code for nmmatopsmultvec.cpp:
 
         #include<iostream>
         #include<math.h>
