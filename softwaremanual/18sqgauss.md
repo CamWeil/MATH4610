@@ -27,7 +27,7 @@
          0  0  0 
         ----------
 
-   **Usage/Example:** The routine defines one int variables, n and pivrow, and four double variables, pivot, swap, c1, and c2, as well as an array with double elements, a. n represents the size of the matrix, pivot is used to locate the largest value in the first column of the matrix, and pivrow is used to store the value of the row that the pivot was found in. swap is used to move the row that the pivot was found in to the first row, and vice versa, c1 is used to compute various coefficents from the first row that can be used in the elimination process, c2 is used to reduce each pivot back to 1 after the elimination process is complete, and a represents the matrix itself. Once swapping occurs, rows are eliminated using the loop:
+   **Usage/Example:** The routine defines two int variables, n and pivrow, and four double variables, pivot, swap, c1, and c2, as well as an array with double elements, a. n represents the size of the matrix, pivot is used to locate the largest value in the first column of the matrix, and pivrow is used to store the value of the row that the pivot was found in. swap is used to move the row that the pivot was found in to the first row, and vice versa, c1 is used to compute various coefficents from the first row that can be used in the elimination process, c2 is used to reduce each pivot back to 1 after the elimination process is complete, and a represents the matrix itself. Once swapping occurs, rows are eliminated using the loop:
    
         for(int i = 0; i < n; i++){
             for (int j = i + 1; j < n; j++){
