@@ -16,10 +16,10 @@
         Enter matrix element a12: 2
         Enter matrix element a21: 3
         Enter matrix element a22: 4
-        Enter matrix element a11: 5
-        Enter matrix element a12: 6
-        Enter matrix element a21: 7
-        Enter matrix element a22: 8
+        Enter matrix element b11: 5
+        Enter matrix element b12: 6
+        Enter matrix element b21: 7
+        Enter matrix element b22: 8
         A * B = 
         ----------
          19  22 
