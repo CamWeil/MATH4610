@@ -2,21 +2,21 @@ Homework 2
 
 Note: I have yet to figure out how to allow the user to input a function in each routine, so the equations from the homework were hard-coded in.
 
-1a. [Absolute Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/3aabserr.md)
+1a. [Absolute Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/03aabserr.md)
 
-1b. [Relative Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/3brelerr.md)
+1b. [Relative Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/03brelerr.md)
 
 2. 
 
 3. 
 
-4. [Functional Iteration Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/6funciter.md)
+4. [Functional Iteration Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/06funciter.md)
 
-5. [Bisection Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/7bisect.md)
+5. [Bisection Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/07bisect.md)
 
-6. [Newton's Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/8newton.md)
+6. [Newton's Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/08newton.md)
 
-7. [Secant Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/9secant.md)
+7. [Secant Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/09secant.md)
 
 8. [Hybrid Method Software Manual Entry (Bisection and Newton)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/10hybridbn.md)
 
