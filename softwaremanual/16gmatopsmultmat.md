@@ -26,7 +26,7 @@
          43  50 
         ----------
 
-   **Usage/Example:** The routine defines one int variables, n, as well as three arrays with double elements, a, b, and cg. n represents the size of the matrix, cg represents the product of the two matrices, and a and b represent the matrices themselves. The value of cg is calculated using the loop:
+   **Usage/Example:** The routine defines one int variable, n, as well as three arrays with double elements, a, b, and cg. n represents the size of the matrix, cg represents the product of the two matrices, and a and b represent the matrices themselves. The value of cg is calculated using the loop:
    
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
