@@ -23,7 +23,7 @@
         Enter matrix element a33: 9
         l∞-norm = 24.
 
-   **Usage/Example:** The routine defines one double variable, linfn, as well as two int variables, m and n, a matrix with double elements, a, and a vector with double elements, linf. m and n represent the rows and columns of the matrix, respectively, linfn represents the l<sub>∞</sub> norm of the matrix, and a represents the matrix itself. The vector linf is used to collect the sum of the magnitude of the values of each matrix row, so that the norm can be calculated using the loops:
+   **Usage/Example:** The routine defines one double variable, linfn, as well as two int variables, m and n, an array with double elements, a, and a vector with double elements, linf. m and n represent the rows and columns of the matrix, respectively, linfn represents the l<sub>∞</sub> norm of the matrix, and a represents the matrix itself. The vector linf is used to collect the sum of the magnitude of the values of each matrix row, so that the norm can be calculated using the loops:
    
         for(int j = 0; j < n; j ++){
                 for(int i = 0; i < m; i++){
