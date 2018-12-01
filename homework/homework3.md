@@ -43,11 +43,11 @@ Homework 3
 
 5g. [Matrix Operation Software Manual Entry (Matrix Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16gmatopsmultmat.md)
 
-6a. [Matrix Operation Entry (Kronecker Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16hmatopskron.md)
+6a. [Matrix Operation Software Manual Entry (Kronecker Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16hmatopskron.md)
 
-6b. [Matrix Operation Entry (Kronecker Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16hmatopskron.md)
+6b. [Matrix Operation Software Manual Entry (Kronecker Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16hmatopskron.md)
 
-6c. [Matrix Operation Entry (Matrix Determinant)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16imatopsdet.md)
+6c. [Matrix Operation Software Manual Entry (Matrix Determinant)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16imatopsdet.md)
 
 7.
 
