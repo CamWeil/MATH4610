@@ -35,7 +35,7 @@
             }
         }
 
-   **Implementation/Code:** The following is the code for nmmatopskron.cpp:
+   **Implementation/Code:** The following is the code for nmmatopsdet.cpp:
 
         #include<iostream>
         #include<math.h>
