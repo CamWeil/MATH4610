@@ -72,5 +72,5 @@ Software Manual Index
 
 16i. [Matrix Operation Entry (Matrix Determinant)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16imatopsdet.md)
 
-17. [Orthogonal/Orthonormal Basis Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/18orthbasis.md)
+17. [Orthogonal/Orthonormal Basis Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/17orthbasis.md)
 
