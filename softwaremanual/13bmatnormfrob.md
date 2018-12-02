@@ -1,4 +1,4 @@
-15b. **Routine Name:**           nmmatnormfrob
+13b. **Routine Name:**           nmmatnormfrob
 
    **Author:** Cam Weil
 
