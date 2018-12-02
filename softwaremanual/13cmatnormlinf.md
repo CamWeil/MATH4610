@@ -1,4 +1,4 @@
-15c. **Routine Name:**           nmmatnormlinf
+13c. **Routine Name:**           nmmatnormlinf
 
    **Author:** Cam Weil
 
