@@ -1,4 +1,4 @@
-15a. **Routine Name:**           nmmatnorml1
+13a. **Routine Name:**           nmmatnorml1
 
    **Author:** Cam Weil
 
