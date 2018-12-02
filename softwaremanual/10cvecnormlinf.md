@@ -1,4 +1,4 @@
-12c. **Routine Name:**           nmvecnormlinf
+10c. **Routine Name:**           nmvecnormlinf
 
    **Author:** Cam Weil
 
