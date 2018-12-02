@@ -1,4 +1,4 @@
-16g. **Routine Name:**           nmmatopsmultmat
+14g. **Routine Name:**           nmmatopsmultmat
 
    **Author:** Cam Weil
 
