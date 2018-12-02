@@ -1,4 +1,4 @@
-16d. **Routine Name:**           nmmatopstrace
+14d. **Routine Name:**           nmmatopstrace
 
    **Author:** Cam Weil
 
