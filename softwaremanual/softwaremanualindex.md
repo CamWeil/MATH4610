@@ -32,7 +32,7 @@ Software Manual Index
 
 11b. [Absolute and Relative Vector Error Entry (l<sub>2</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/11bvecerrl2.md)
 
-11c. [Aboslute and Relative Vector Error Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/11cvecerrlinf.md)
+11c. [Absolute and Relative Vector Error Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/11cvecerrlinf.md)
 
 12a. [Vector Operation Entry (Vector Addition)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/12avecopsadd.md)
 
