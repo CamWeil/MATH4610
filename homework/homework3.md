@@ -1,61 +1,61 @@
 Homework 3
 
 
-1a. [Vector Norm Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/10avecnorml1.md)
+1a. [Vector Norm Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/10avecnorml1.md)
 
-1b. [Vector Norm Software Manual Entry (l<sub>2</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/10bvecnorml2.md)
+1b. [Vector Norm Software Manual Entry (l<sub>2</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/10bvecnorml2.md)
 
-1c. [Vector Norm Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/10cvecnormlinf.md)
+1c. [Vector Norm Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/10cvecnormlinf.md)
 
-2a. [Absolute and Relative Vector Errors Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/11avecerrl1.md)
+2a. [Absolute and Relative Vector Errors Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/11avecerrl1.md)
 
-2b. [Absolute and Relative Vector Errors Software Manual Entry (l<sub>2</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/11bvecerrl2.md)
+2b. [Absolute and Relative Vector Errors Software Manual Entry (l<sub>2</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/11bvecerrl2.md)
 
-2c. [Absolute and Relative Vector Errors Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/11cvecerrlinf.md)
+2c. [Absolute and Relative Vector Errors Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/11cvecerrlinf.md)
 
-3a. [Vector Operation Software Manual Entry (Vector Addition)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12avecopsadd.md)
+3a. [Vector Operation Software Manual Entry (Vector Addition)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/12avecopsadd.md)
 
-3b. [Vector Operation Software Manual Entry (Vector Subtraction)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12bvecopssub.md)
+3b. [Vector Operation Software Manual Entry (Vector Subtraction)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/12bvecopssub.md)
 
-3c. [Vector Operation Software Manual Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12cvecopsmultsc.md)
+3c. [Vector Operation Software Manual Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/12cvecopsmultsc.md)
 
-3d. [Vector Operation Software Manual Entry (Inner Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12dvecopsdot.md)
+3d. [Vector Operation Software Manual Entry (Inner Product)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/12dvecopsdot.md)
 
-3e. [Vector Operation Software Manual Entry (Cross Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12evecopscross.md)
+3e. [Vector Operation Software Manual Entry (Cross Product)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/12evecopscross.md)
 
-4a. [Matrix Norm Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13amatnorml1.md)
+4a. [Matrix Norm Software Manual Entry (l<sub>1</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/13amatnorml1.md)
 
-4b. [Matrix Norm Software Manual Entry (Frobenius)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13bmatnormfrob.md)
+4b. [Matrix Norm Software Manual Entry (Frobenius)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/13bmatnormfrob.md)
 
-4c. [Matrix Norm Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/13cmatnormlinf.md)
+4c. [Matrix Norm Software Manual Entry (l<sub>∞</sub>)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/13cmatnormlinf.md)
 
-5a. [Matrix Operation Software Manual Entry (Matrix Addition)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14amatopsadd.md)
+5a. [Matrix Operation Software Manual Entry (Matrix Addition)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/14amatopsadd.md)
 
-5b. [Matrix Operation Software Manual Entry (Matrix Subtraction)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14bmatopssub.md)
+5b. [Matrix Operation Software Manual Entry (Matrix Subtraction)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/14bmatopssub.md)
 
-5c. [Matrix Operation Software Manual Entry (Matrix Transpose)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14cmatopstransp.md)
+5c. [Matrix Operation Software Manual Entry (Matrix Transpose)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/14cmatopstransp.md)
 
-5d. [Matrix Operation Software Manual Entry (Matrix Trace)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14dmatopstrace.md)
+5d. [Matrix Operation Software Manual Entry (Matrix Trace)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/14dmatopstrace.md)
 
-5e. [Matrix Operation Software Manual Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14ematopsmultsc.md)
+5e. [Matrix Operation Software Manual Entry (Scalar Multiplication)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/14ematopsmultsc.md)
 
-5f. [Matrix Operation Software Manual Entry (Vector Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14fmatopsmultvec.md)
+5f. [Matrix Operation Software Manual Entry (Vector Multiplication)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/14fmatopsmultvec.md)
 
-5g. [Matrix Operation Software Manual Entry (Matrix Multiplication)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14gmatopsmultmat.md)
+5g. [Matrix Operation Software Manual Entry (Matrix Multiplication)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/14gmatopsmultmat.md)
 
-6a. [Matrix Operation Software Manual Entry (Kronecker Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14hmatopskron.md)
+6a. [Matrix Operation Software Manual Entry (Kronecker Product)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/14hmatopskron.md)
 
-6b. [Matrix Operation Software Manual Entry (Kronecker Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14hmatopskron.md)
+6b. [Matrix Operation Software Manual Entry (Kronecker Product)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/14hmatopskron.md)
 
-6c. [Matrix Operation Software Manual Entry (Matrix Determinant)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/14imatopsdet.md)
+6c. [Matrix Operation Software Manual Entry (Matrix Determinant)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/14imatopsdet.md)
 
 7. N/A
 
-8a. [Vector Operation Software Manual Entry (Inner Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12dvecopsdot.md)
+8a. [Vector Operation Software Manual Entry (Inner Product)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/12dvecopsdot.md)
 
-8b. [Vector Operation Software Manual Entry (Cross Product)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/12evecopscross.md)
+8b. [Vector Operation Software Manual Entry (Cross Product)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/12evecopscross.md)
 
-9. [Orthogonal/Orthonormal Basis Software Manual Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/15orthbasis.md)
+9. [Orthogonal/Orthonormal Basis Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/15orthbasis.md)
 
 10. Problem: Perform an online search using the term Kronecker product. Find sites that describe the product and applications of the Kronecker product. Write up a paragraph or two describing this topic citing at least three web pages and/or web sites.
 
