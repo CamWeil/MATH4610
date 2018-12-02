@@ -1,4 +1,4 @@
-16f. **Routine Name:**           nmmatopsmultvec
+14f. **Routine Name:**           nmmatopsmultvec
 
    **Author:** Cam Weil
 
