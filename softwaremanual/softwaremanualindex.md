@@ -74,3 +74,8 @@ Software Manual Index
 
 17. [Orthogonal/Orthonormal Basis Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/17orthbasis.md)
 
+18. [Gaussian Elimination Entry (Square Matrix)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/18sqgauss.md)
+
+19. [Gaussian Elimination Entry (Rectangula Matrix)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/19rectgauss.md)
+
+20. [Forward Substitution Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/20forsub.md)
