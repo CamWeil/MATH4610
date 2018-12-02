@@ -1,4 +1,4 @@
-14b. **Routine Name:**           nmvecopssub
+12b. **Routine Name:**           nmvecopssub
 
    **Author:** Cam Weil
 
