@@ -1,4 +1,4 @@
-14d. **Routine Name:**           nmvecopsdot
+12d. **Routine Name:**           nmvecopsdot
 
    **Author:** Cam Weil
 
