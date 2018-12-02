@@ -28,15 +28,15 @@
    
         for(int i = 0; i < m; i++){
             for (int j = i + 1; j < m; j++){
-                c1 = -a[j][i]/a[i][i];
+                c = -a[j][i]/a[i][i];
 
-                for(int k = i; k < m + 1; k++){
+                for(int k = i; k < n; k++){
                     if(i == k){
                         a[j][k] = 0;
                     }
 
                     else{
-                        a[j][k] = a[j][k] + c1*a[i][k];
+                        a[j][k] = a[j][k] + c*a[i][k];
                     }
                 }
             }
@@ -95,7 +95,7 @@
                 for (int j = i + 1; j < m; j++){
                     c = -a[j][i]/a[i][i];
 
-                    for(int k = i; k < m + 1; k++){
+                    for(int k = i; k < n; k++){
                         if(i == k){
                             a[j][k] = 0;
                         }
