@@ -1,4 +1,4 @@
-13b. **Routine Name:**           nmvecerrl2
+11b. **Routine Name:**           nmvecerrl2
 
    **Author:** Cam Weil
 
