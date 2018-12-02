@@ -1,4 +1,4 @@
-18. **Routine Name:**           nmsqgauss
+16. **Routine Name:**           nmsqgauss
 
    **Author:** Cam Weil
 
