@@ -1,4 +1,4 @@
-16c. **Routine Name:**           nmmatopstransp
+14c. **Routine Name:**           nmmatopstransp
 
    **Author:** Cam Weil
 
