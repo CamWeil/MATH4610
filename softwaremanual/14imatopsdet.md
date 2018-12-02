@@ -1,4 +1,4 @@
-16i. **Routine Name:**           nmmatopsdet
+14i. **Routine Name:**           nmmatopsdet
 
    **Author:** Cam Weil
 
