@@ -1,4 +1,4 @@
-16b. **Routine Name:**           nmmatopssub
+14b. **Routine Name:**           nmmatopssub
 
    **Author:** Cam Weil
 
