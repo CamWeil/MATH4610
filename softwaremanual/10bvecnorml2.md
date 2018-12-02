@@ -1,4 +1,4 @@
-12b. **Routine Name:**           nmvecnorml2
+10b. **Routine Name:**           nmvecnorml2
 
    **Author:** Cam Weil
 
