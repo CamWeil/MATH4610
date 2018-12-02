@@ -4,21 +4,21 @@ Homework 2
 
 1b. [Relative Error Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/03brelerr.md)
 
-2. 
+2. N/A
 
-3. 
+3. N/A
 
-4. [Functional Iteration Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/06funciter.md)
+4. [Functional Iteration Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/04funciter.md)
 
-5. [Bisection Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/07bisect.md)
+5. [Bisection Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/05bisect.md)
 
-6. [Newton's Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/08newton.md)
+6. [Newton's Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/06newton.md)
 
-7. [Secant Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/09secant.md)
+7. [Secant Method Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/07secant.md)
 
-8. [Hybrid Method Software Manual Entry (Bisection and Newton)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/10hybridbn.md)
+8. [Hybrid Method Software Manual Entry (Bisection and Newton)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/08hybridbn.md)
 
-9. [Hybrid Method Software Manual Entry (Bisection and Secant)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/11hybridbs.md)
+9. [Hybrid Method Software Manual Entry (Bisection and Secant)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/09hybridbs.md)
 
 10. Problem: Perform an online search for references to bracketing of roots of functions of a single real variable. Look for applications and explanations of how to bracket roots of nonlinear functions. Make sure that you cite at least three sources. You can cite websites and/or web pages that discuss bracketing.
 
