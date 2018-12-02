@@ -1,10 +1,10 @@
 Homework 4
 
-1. [Gaussian Elimination Software Manual Entry (Square Matrix)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/16sqgauss.md)
+1. [Gaussian Elimination Software Manual Entry (Square Matrix)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/16sqgauss.md)
 
-2. [Gaussian Elimination Software Manual Entry (Rectangular Matrix)](https://github.com/CamWeil/math4610/edit/master/softwaremanual/17rectgauss.md)
+2. [Gaussian Elimination Software Manual Entry (Rectangular Matrix)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/17rectgauss.md)
 
-3. [Forward Substitution Software Manual Entry](https://github.com/CamWeil/math4610/edit/master/softwaremanual/18forsub.md)
+3. [Forward Substitution Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/18forsub.md)
 
 4.
 
