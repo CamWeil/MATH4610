@@ -20,11 +20,11 @@
         Enter matrix element a23: 6
         A (GE) = 
         ----------
-         1  1.25  1.5 
-         0  1  2 
+         4  5  6 
+         0  0.75  1.5 
         ----------
 
-   **Usage/Example:** The routine defines three int variables, m, n, and pivrow, and four double variables, pivot, swap, c1, and c2, as well as an array with double elements, a. m and n represent the rows and columns of the matrix, respectively, pivot is used to locate the largest value in the first column of the matrix, and pivrow is used to store the value of the row that the pivot was found in. swap is used to move the row that the pivot was found in to the first row, and vice versa, c1 is used to compute various coefficents from the first row that can be used in the elimination process, c2 is used to reduce each pivot back to 1 after the elimination process is complete, and a represents the matrix itself. Once swapping occurs, rows are eliminated using the loop:
+   **Usage/Example:** The routine defines three int variables, m, n, and pivrow, and three double variables, pivot, swap, and c, as well as an array with double elements, a. m and n represent the rows and columns of the matrix, respectively, pivot is used to locate maximum values for row swapping, and pivrow is used to store the value of the row that each pivot was found in. swap is used to exchange rows when pivots are found, c is used to compute various coefficents from each row that can be used in the elimination process, and a represents the matrix itself. Rows are eliminated using the loop:
    
         for(int i = 0; i < m; i++){
             for (int j = i + 1; j < m; j++){
@@ -66,8 +66,7 @@
             double pivot = fabs(a[0][0]);
             int pivrow = 0;
             double swap;
-            double c1;
-            double c2;
+            double c;
 
             for(int i = 0; i < m; i++){
                 for(int j = 0; j < n; j++){
@@ -77,26 +76,24 @@
             }
 
             for(int i = 0; i < m; i++){
-                if(fabs(a[i][0]) > pivot){
-                    pivot = fabs(a[i][0]);
-                    pivrow = i;
+                pivot = fabs(a[i][i]);
+                pivrow = i;
+
+                for(int j = i + 1; j < m; j++){
+                    if(fabs(a[j][i]) > pivot){
+                        pivot = fabs(a[j][i]);
+                        pivrow = j;
+                    }
                 }
 
-                else{
-                    pivot = pivot;
-                    pivrow = pivrow;
+                for(int j = 0; j < n; j++){
+                    swap = a[pivrow][j];
+                    a[pivrow][j] = a[i][j];
+                    a[i][j] = swap;
                 }
-            }
 
-            for(int j = 0; j < n; j++){
-                swap = a[pivrow][j];
-                a[pivrow][j] = a[0][j];
-                a[0][j] = swap;
-            }
-
-            for(int i = 0; i < m; i++){
                 for (int j = i + 1; j < m; j++){
-                    c1 = -a[j][i]/a[i][i];
+                    c = -a[j][i]/a[i][i];
 
                     for(int k = i; k < m + 1; k++){
                         if(i == k){
@@ -104,47 +101,10 @@
                         }
 
                         else{
-                            a[j][k] = a[j][k] + c1*a[i][k];
+                            a[j][k] = a[j][k] + c*a[i][k];
                         }
                     }
                 }
-            }
-
-            if(m < n){
-                for(int i = 0; i < n; i++){
-                    c2 = a[i][i];
-
-                    for(int j = 0; j < n; j++){
-                        if(a[i][j] == 0){
-                            a[i][j] = 0;
-                        }
-
-                        else{
-                            a[i][j] = a[i][j]/c2;
-                        }
-                    }
-                }
-            }
-
-            else if(m > n){
-                for(int i = 0; i < m; i++){
-                    c2 = a[i][i];
-
-                    for(int j = 0; j < m; j++){
-                        if(a[i][j] == 0){
-                            a[i][j] = 0;
-                        }
-
-                        else{
-                            a[i][j] = a[i][j]/c2;
-                        }
-                    }
-                }
-            }
-
-            else{
-                cout << "Error: This is a routine for rectangular matrices." << endl;
-                return 0;
             }
 
             cout << "A (GE) = " << endl;
@@ -162,7 +122,6 @@
 
             cout << "----------" << endl;
             cout << endl;
-
 
             return 0;
         }
