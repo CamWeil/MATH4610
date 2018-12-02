@@ -1,4 +1,4 @@
-14c. **Routine Name:**           nmvecopsmultsc
+12c. **Routine Name:**           nmvecopsmultsc
 
    **Author:** Cam Weil
 
