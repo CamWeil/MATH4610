@@ -1,4 +1,4 @@
-13c. **Routine Name:**           nmvecerrlinf
+11c. **Routine Name:**           nmvecerrlinf
 
    **Author:** Cam Weil
 
