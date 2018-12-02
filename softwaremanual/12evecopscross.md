@@ -1,4 +1,4 @@
-14e. **Routine Name:**           nmvecopscross
+12e. **Routine Name:**           nmvecopscross
 
    **Author:** Cam Weil
 
