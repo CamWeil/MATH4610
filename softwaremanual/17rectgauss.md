@@ -1,4 +1,4 @@
-19. **Routine Name:**           nmrectgauss
+17. **Routine Name:**           nmrectgauss
 
    **Author:** Cam Weil
 
