@@ -1,4 +1,4 @@
-14a. **Routine Name:**           nmvecopsadd
+12a. **Routine Name:**           nmvecopsadd
 
    **Author:** Cam Weil
 
