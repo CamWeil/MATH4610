@@ -1,4 +1,4 @@
-16e. **Routine Name:**           nmmatopsmultsc
+14e. **Routine Name:**           nmmatopsmultsc
 
    **Author:** Cam Weil
 
