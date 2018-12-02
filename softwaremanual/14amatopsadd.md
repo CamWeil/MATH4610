@@ -1,4 +1,4 @@
-16a. **Routine Name:**           nmmatopsadd
+14a. **Routine Name:**           nmmatopsadd
 
    **Author:** Cam Weil
 
