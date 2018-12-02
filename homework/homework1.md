@@ -6,9 +6,9 @@ Homework 1
 
 2. [Software Manual Index](https://github.com/CamWeil/math4610/blob/master/softwaremanual/softwaremanualindex.md)
 
-3. 
+3. N/A
 
-4. 
+4. N/A
 
 5. [Calculus/Differential Equations Solutions](https://github.com/CamWeil/math4610/blob/master/homework/nmhw1.pdf)
 
