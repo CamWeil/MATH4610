@@ -30,10 +30,13 @@
         x[0] = b[0]/a[0][0];
     
         for(int i = 1; i < n; i++){
-            for(int j = 0; j < i - 1; j++){
+            s = 0;
+
+            for(int j = 0; j < i; j++){
                 s = s + a[i][j]*x[j];
-                x[i] = (b[i] - s)/a[i][i];
             }
+
+            x[i] = (b[i] - s)/a[i][i];
         }
 
    **Implementation/Code:** The following is the code for nmforsub.cpp:
@@ -81,12 +84,15 @@
             }
 
             x[0] = b[0]/a[0][0];
-
+    
             for(int i = 1; i < n; i++){
-                for(int j = 0; j < i - 1; j++){
+                s = 0;
+
+                for(int j = 0; j < i; j++){
                     s = s + a[i][j]*x[j];
-                    x[i] = (b[i] - s)/a[i][i];
                 }
+
+                x[i] = (b[i] - s)/a[i][i];
             }
 
             cout << "x = <";
