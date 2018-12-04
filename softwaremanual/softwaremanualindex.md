@@ -83,3 +83,5 @@ Software Manual Index
 21. [LU-Factorization Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/21lufact.md)
 
 22. [Linear Systems Entry (LU-Factorization)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/22linsyslu.md)
+
+23. [Cholesky Factorization Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/23cholfact.md)
