@@ -29,6 +29,7 @@
          0  2.75  3.75  |  -0.5 
          0  0  0.909091  |  -0.454545 
         ----------
+        
         x = < 1  0.5  -0.5 >.
 
    **Usage/Example:** The routine defines two int variables, n and pivrow, and four double variables, pivot, swap, c, and s, as well as an array with double elements, a, and a vector with double elements, x. n represents the size of the matrix, pivot is used to locate maximum values for row swapping, and pivrow is used to store the value of the row that each pivot was found in. swap is used to exchange rows when pivots are found, c is used to compute various coefficents from each row that can be used in the elimination process, s represents the sum in the implementation of the formula for forward substitution, and a and x each represent their respective parts of the system Ax = b. The elements of x are calculated using the loop:
@@ -141,6 +142,7 @@
             }
 
             cout << "----------" << endl;
+            cout << endl;
 
             cout << "x = <";
 
