@@ -75,3 +75,11 @@ Software Manual Index
 17. [Gaussian Elimination Entry (Rectangular Matrix)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/17rectgauss.md)
 
 18. [Forward Substitution Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/18forsub.md)
+
+19. [Backward Substitution Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/19backsub.md)
+
+20. [Linear Systems Entry (Gaussian Elimination)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/20linsysgauss.md)
+
+21. [LU-Factorization Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/21lufact.md)
+
+22. [Linear Systems Entry (LU-Factorization)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/22linsyslu.md)
