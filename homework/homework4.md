@@ -18,7 +18,7 @@ Homework 4
 
 9. N/A
 
-10.
+10. [Linear Systems Software Manual Entry (Cholesky Factorization)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/24linsyschol.md)
 
 11. Problem: Use an online search to find web sites and/or web pages that identify test problems for linear solvers. Write a summary of at least two of these sites. Download and include these examples in your software manual or provide links to the sites you use to test your own linear solution codes.
 
