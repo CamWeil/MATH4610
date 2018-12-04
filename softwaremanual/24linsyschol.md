@@ -8,7 +8,7 @@
    
    **Input:** There are inputs needed for the size of the matrix, the elements of the matrix, and the elements of the vector b. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine simply performs Cholesky factorization on a symmetric matrix, and then performs respective substitutions so as to solve for y given Ly = b and x given L<sup>T</sup>x = b, where x is then given as the output. For example:
+   **Output:** This routine simply performs Cholesky factorization on a symmetric matrix, and then performs respective substitutions so as to solve for y given Ly = b and x given L<sup>T</sup>x = y, where x is then given as the output. For example:
         
         Enter size of linear system: 5
         Enter coefficient #1 for equation #1: 1
