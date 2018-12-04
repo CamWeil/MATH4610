@@ -25,7 +25,7 @@
         Enter coordinate #3 for vector b: 3
         x = < -0.25  -0.125  0.5 >.
 
-   **Usage/Example:** The routine defines one int variable, n, and one double variable, s, as well as an array with double elements, a, and two vectors with double elements, b and x. n represents the size of the matrix, s represents the sum in the implementation of the formula for forward substitution, and a, x, and b each represent their respective parts of the system Ax = b. The elements of x are calculated using the loop:
+   **Usage/Example:** The routine defines one int variable, n, and one double variable, s, as well as an array with double elements, a, and two vectors with double elements, b and x. n represents the size of the matrix, s represents the sum in the implementation of the formula for backward substitution, and a, x, and b each represent their respective parts of the system Ax = b. The elements of x are calculated using the loop:
    
         x[n - 1] = b[n - 1]/a[n - 1][n - 1];
 
