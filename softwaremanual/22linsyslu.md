@@ -8,7 +8,7 @@
    
    **Input:** There are inputs needed for the size of the matrix, the elements of the matrix, and the elements of the vector b. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine simply performs LU-factorization on a square matrix, and then performs respective substitutions so as to solve for y given Ly = b and x given Ux = b, where x is then given as the output. For example:
+   **Output:** This routine simply performs LU-factorization on a square matrix, and then performs respective substitutions so as to solve for y given Ly = b and x given Ux = y, where x is then given as the output. For example:
         
         Enter size of linear system: 3
         Enter coefficient #1 for equation #1: 1
@@ -41,7 +41,7 @@
         y = < 6  -0.5  -0.454545 >.
         x = < 1  0.5  -0.5 >.
 
-   **Usage/Example:** The routine defines two int variables, n and pivrow, and five double variables, pivot, swap, c, s1, and s2, as well as three arrays with double elements, a, u, and l, and two vectors with double elements, b and x. n represents the size of the matrix, pivot is used to locate maximum values for row swapping, and pivrow is used to store the value of the row that each pivot was found in. swap is used to exchange rows when pivots are found, c is used to compute various coefficents from each row that can be used in the elimination process, s1 and s2 represent the sums in the implementation of the formulas for forward and backward substitution. u represents the upper triangular decomposition of a, l represents the lower triangular decomposition of a, and a, x, and b each represent their respective parts of the system Ax = b. The elements of y and x are calculated using the loops:
+   **Usage/Example:** The routine defines two int variables, n and pivrow, and five double variables, pivot, swap, c, s1, and s2, as well as three arrays with double elements, a, u, and l, and three vectors with double elements, b, x, and y. n represents the size of the matrix, pivot is used to locate maximum values for row swapping, and pivrow is used to store the value of the row that each pivot was found in. swap is used to exchange rows when pivots are found, c is used to compute various coefficents from each row that can be used in the elimination process, s1 and s2 represent the sums in the implementation of the formulas for forward and backward substitution. u represents the upper triangular decomposition of a, l represents the lower triangular decomposition of a, and a, x, y, and b each represent their respective parts of the systems Ly = b and Ux = y. The elements of y and x are calculated using the loops:
    
         y[0] = b[0]/l[0][0];
 
