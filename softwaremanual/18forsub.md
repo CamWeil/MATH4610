@@ -4,7 +4,7 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will perform forward substitution on a square lower rectangular matrix and return the solution x to a problem Ax = b.
+   **Description/Purpose:** This routine will perform forward substitution on a square lower triangular matrix and return the solution x to a problem Ax = b.
    
    **Input:** There are inputs needed for the size of the matrix, the elements of the matrix, and the elements of the vector b. These inputs are all prompted for at the beginning of the routine.
 
