@@ -33,7 +33,7 @@
             for (int j = i + 1; j < n; j++){
                 c = -a[j][i]/a[i][i];
 
-                for(int k = i; k < n + 1; k++){
+                for(int k = i; k < n; k++){
                     if(i == k){
                         a[j][k] = 0;
                     }
