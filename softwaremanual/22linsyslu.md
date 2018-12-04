@@ -4,11 +4,11 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will perform LU-factorization on a square matrix and return the solution x to a problem Ax = b.
+   **Description/Purpose:** This routine will perform LU factorization on a square matrix and return the solution x to a problem Ax = b.
    
    **Input:** There are inputs needed for the size of the matrix, the elements of the matrix, and the elements of the vector b. These inputs are all prompted for at the beginning of the routine.
 
-   **Output:** This routine simply performs LU-factorization on a square matrix, and then performs respective substitutions so as to solve for y given Ly = b and x given Ux = y, where x is then given as the output. For example:
+   **Output:** This routine simply performs LU factorization on a square matrix, and then performs respective substitutions so as to solve for y given Ly = b and x given Ux = y, where x is then given as the output. For example:
         
         Enter size of linear system: 3
         Enter coefficient #1 for equation #1: 1
