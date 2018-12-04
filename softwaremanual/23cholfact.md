@@ -54,7 +54,7 @@
          6.95313e-310  9.65595e-97  1.4822e-323  9.38725e-323  1 
         ----------
 
-   **Usage/Example:** The routine defines one int variables, n, and one double variable, s, as well as two arrays with double elements, a and l. n represents the size of the matrix, s represents the sum in the implementation of the formula for Cholesky factorization, l represents the lower triangular decomposition of a, and a represents the matrix itself. The elements of l are calculated using the loop:
+   **Usage/Example:** The routine defines one int variable, n, and one double variable, s, as well as two arrays with double elements, a and l. n represents the size of the matrix, s represents the sum in the implementation of the formula for Cholesky factorization, l represents the lower triangular decomposition of a, and a represents the matrix itself. The elements of l are calculated using the loop:
    
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < i + 1; j++) {
