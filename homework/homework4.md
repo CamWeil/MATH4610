@@ -6,13 +6,13 @@ Homework 4
 
 3. [Forward Substitution Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/18forsub.md)
 
-4.
+4. [Backward Substitution Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/19backsub.md)
 
-5.
+5. [Linear Systems Software Manual Entry (Gaussian Elimination)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/20linsysgauss.md)
 
-6.
+6. [LU-Factorization Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/21lufact.md)
 
-7.
+7. [Linear Systems Software Manual Entry (LU-Factorization)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/22linsyslu.md)
 
 8.
 
