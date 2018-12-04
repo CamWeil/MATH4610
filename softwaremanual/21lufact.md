@@ -34,7 +34,7 @@
          0  0  1.11022e-16 
         ----------
 
-   **Usage/Example:** The routine defines two int variables, n and pivrow, and three double variables, pivot, swap, and c, as well as three array with double elements, a, u, and l. n represents the size of the matrix, pivot is used to locate maximum values for row swapping, and pivrow is used to store the value of the row that each pivot was found in. swap is used to exchange rows when pivots are found, c is used to compute various coefficents from each row that can be used in the elimination process, u represents the upper triangular decomposition of a, l represents the lower triangular decomposition of a, and a represents the matrix itself. The elements of u and l are calculated using the loops:
+   **Usage/Example:** The routine defines two int variables, n and pivrow, and three double variables, pivot, swap, and c, as well as three arrays with double elements, a, u, and l. n represents the size of the matrix, pivot is used to locate maximum values for row swapping, and pivrow is used to store the value of the row that each pivot was found in. swap is used to exchange rows when pivots are found, c is used to compute various coefficents from each row that can be used in the elimination process, u represents the upper triangular decomposition of a, l represents the lower triangular decomposition of a, and a represents the matrix itself. The elements of u and l are calculated using the loops:
    
         for (int j = i + 1; j < n; j++){
             c = -u[j][i]/u[i][i];
