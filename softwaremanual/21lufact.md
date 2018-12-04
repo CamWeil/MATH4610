@@ -4,11 +4,11 @@
 
    **Language:** C++
 
-   **Description/Purpose:** This routine will perform LU-factorization on a square matrix and return the results of the operations in two separate arrays.
+   **Description/Purpose:** This routine will perform LU factorization on a square matrix and return the results of the operations in two separate arrays.
    
    **Input:** There are inputs needed for the size of the matrix and the elements of the matrix. These inputs are both prompted for at the beginning of the routine.
 
-   **Output:** This routine simply performs LU-factorization on a square matrix to create two resultant triangular matrices, which are then given as the output. For example:
+   **Output:** This routine simply performs LU factorization on a square matrix to create two resultant triangular matrices, which are then given as the output. For example:
         
         Enter matrix size: 3
         Enter matrix element a11: 1
