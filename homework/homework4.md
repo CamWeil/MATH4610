@@ -12,7 +12,7 @@ Homework 4
 
 6. [LU-Factorization Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/21lufact.md)
 
-7. [Linear Systems Software Manual Entry (LU-Factorization)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/22linsyslu.md)
+7. [Linear Systems Software Manual Entry (LU Factorization)](https://github.com/CamWeil/math4610/blob/master/softwaremanual/22linsyslu.md)
 
 8. [Cholesky Factorization Software Manual Entry](https://github.com/CamWeil/math4610/blob/master/softwaremanual/23cholfact.md)
 
