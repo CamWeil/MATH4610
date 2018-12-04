@@ -68,7 +68,7 @@
 
                 else{
                     for(int k = 0; k < j; k++)
-                        s = s + (l[i][k]*l[j][k]);
+                        s = s + l[i][k]*l[j][k];
                         l[i][j] = (a[i][j] - s)/l[j][j];
                 }
             }
@@ -119,7 +119,7 @@
 
                     else{
                         for(int k = 0; k < j; k++)
-                            s = s + (l[i][k]*l[j][k]);
+                            s = s + l[i][k]*l[j][k];
                             l[i][j] = (a[i][j] - s)/l[j][j];
                     }
                 }
