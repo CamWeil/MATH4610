@@ -1,4 +1,4 @@
-# MATH4610
+# Numerical Analysis
 
 [Homework Index](https://github.com/CamWeil/math4610/blob/master/homework/homeworkindex.md)
 
