@@ -7,5 +7,3 @@ Homework Index
 3. [Homework 3](https://github.com/CamWeil/math4610/blob/master/homework/homework3.md)
 
 4. [Homework 4](https://github.com/CamWeil/math4610/blob/master/homework/homework4.md)
-
-5. [Homework 5](https://github.com/CamWeil/math4610/blob/master/homework/homework5.md)
